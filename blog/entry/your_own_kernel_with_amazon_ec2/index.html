@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="must-revalidate" />
+<title>your own kernel with amazon ec2</title>
+
+<link rel="stylesheet" href="../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../local.css" type="text/css" />
+
+
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Fyour_own_kernel_with_amazon_ec2&amp;do=edit" />
+
+
+
+
+</head>
+<body><script src="../../../ikiwiki/ikiwiki.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../../ikiwiki/relativedate.js" type="text/javascript" charset="utf-8"></script>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../">miguel.cc</a>/ 
+
+<a href="../../">blog</a>/ 
+
+<a href="../../../">entry</a>/ 
+
+</span>
+<span class="title">
+your own kernel with amazon ec2
+
+</span>
+</span>
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+<li><a href="http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Fyour_own_kernel_with_amazon_ec2&amp;do=edit" rel="nofollow">Edit</a></li>
+
+
+<li><a href="../../../recentchanges/">RecentChanges</a></li>
+
+
+
+
+<li><a href="http://miguel.cc/ikiwiki.cgi?do=prefs">Preferences</a></li>
+
+
+
+
+<li><span class="createlink"><a href="http://miguel.cc/ikiwiki.cgi?page=discussion&amp;from=blog%2Fentry%2Fyour_own_kernel_with_amazon_ec2&amp;do=create" rel="nofollow">?</a>Discussion</span></li>
+
+
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+
+<div id="pagebody">
+
+<div id="content">
+<p>Recently,
+<a href="http://aws.typepad.com/aws/2010/07/use-your-own-kernel-with-amazon-ec2.html">Amazon announced support</a>
+for user provided Linux kernels in Amazon EC2.</p>
+
+<p>Since they provided a list of supported distributions but Debian was not
+included, I decided to give a try to this new feature to see if I could boot a
+Linux kernel provided by Debian.</p>
+
+<p>Following the instructions available in
+<a href="http://ec2-downloads.s3.amazonaws.com/user_specified_kernels.pdf">EC2 documentation</a>
+and the recommendations for <a href="http://wiki.debian.org/Xen">Xen usage</a> at Debian
+wiki, I could boot an AMI using <code>linux-image-2.6.32-5-686-bigmem</code> kernel
+included with upcoming Debian 6.0 (squeeze, right now at testing stage).</p>
+
+<p>You just have to:</p>
+
+<ul>
+<li>Indicate in <code>/boot/grub/menu.lst</code> <code>root=/dev/xvda1</code> as root device.</li>
+<li>Make sure <code>/etc/fstab</code> contains the correct device names.</li>
+<li>Bundle your image with <code>linux-image-2.6.32-5-686-bigmem</code> and <code>grub-legacy</code> packages
+installed.</li>
+</ul>
+
+<p>In the <a href="http://wiki.debian.org/Xen">Xen entry</a> at Debian wiki is mentioned that
+domU instances can boot with a Linux image Xen flavor, but I could not boot
+<code>linux-image-2.6.32-5-xen-686</code> in Amazon EC2. I&#39;ll investigate why that&#39;s
+happening.</p>
+
+</div>
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+<div class="tags">
+Tags:
+
+<span class="createlink"><a href="http://miguel.cc/ikiwiki.cgi?page=debian&amp;from=blog%2Fentry%2Fyour_own_kernel_with_amazon_ec2&amp;do=create" rel="nofollow">?</a>debian</span>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="relativedate" title="Tue, 20 Jul 2010 03:19:25 +0000">in the wee hours of Monday night, July 20th, 2010</span>
+<!-- Created <span class="relativedate" title="Tue, 20 Jul 2010 03:00:51 +0000">in the wee hours of Monday night, July 20th, 2010</span> -->
+</div>
+
+</div>
+
+
+<!-- from miguel.cc -->
+</div>
+
+</div>
+
+</body>
+</html>

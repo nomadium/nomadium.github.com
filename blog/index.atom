@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>blog</title>
+<link href="http://miguel.cc//blog/"/>
+<link href="http://miguel.cc//blog/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>miguel.cc</name>
+
+</author>
+
+
+
+
+<id>http://miguel.cc//blog/</id>
+
+<subtitle type="html">miguel.cc</subtitle>
+<generator uri="http://ikiwiki.info/" version="3.20100610">ikiwiki</generator>
+<updated>2010-07-20T03:19:25Z</updated>
+<entry>
+	<title>your own kernel with amazon ec2</title>
+
+	<id>http://miguel.cc//blog/entry/your_own_kernel_with_amazon_ec2/</id>
+
+	<link href="http://miguel.cc//blog/entry/your_own_kernel_with_amazon_ec2/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+
+	<updated>2010-07-20T03:19:25Z</updated>
+	<published>2010-07-20T03:00:51Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Recently,
+&lt;a href=&quot;http://aws.typepad.com/aws/2010/07/use-your-own-kernel-with-amazon-ec2.html&quot;&gt;Amazon announced support&lt;/a&gt;
+for user provided Linux kernels in Amazon EC2.&lt;/p&gt;
+
+&lt;p&gt;Since they provided a list of supported distributions but Debian was not
+included, I decided to give a try to this new feature to see if I could boot a
+Linux kernel provided by Debian.&lt;/p&gt;
+
+&lt;p&gt;Following the instructions available in
+&lt;a href=&quot;http://ec2-downloads.s3.amazonaws.com/user_specified_kernels.pdf&quot;&gt;EC2 documentation&lt;/a&gt;
+and the recommendations for &lt;a href=&quot;http://wiki.debian.org/Xen&quot;&gt;Xen usage&lt;/a&gt; at Debian
+wiki, I could boot an AMI using &lt;code&gt;linux-image-2.6.32-5-686-bigmem&lt;/code&gt; kernel
+included with upcoming Debian 6.0 (squeeze, right now at testing stage).&lt;/p&gt;
+
+&lt;p&gt;You just have to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Indicate in &lt;code&gt;/boot/grub/menu.lst&lt;/code&gt; &lt;code&gt;root=/dev/xvda1&lt;/code&gt; as root device.&lt;/li&gt;
+&lt;li&gt;Make sure &lt;code&gt;/etc/fstab&lt;/code&gt; contains the correct device names.&lt;/li&gt;
+&lt;li&gt;Bundle your image with &lt;code&gt;linux-image-2.6.32-5-686-bigmem&lt;/code&gt; and &lt;code&gt;grub-legacy&lt;/code&gt; packages
+installed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the &lt;a href=&quot;http://wiki.debian.org/Xen&quot;&gt;Xen entry&lt;/a&gt; at Debian wiki is mentioned that
+domU instances can boot with a Linux image Xen flavor, but I could not boot
+&lt;code&gt;linux-image-2.6.32-5-xen-686&lt;/code&gt; in Amazon EC2. I&amp;#39;ll investigate why that&amp;#39;s
+happening.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

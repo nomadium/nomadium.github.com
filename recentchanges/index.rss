@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>RecentChanges</title>
+<link>http://miguel.cc//recentchanges/</link>
+<description>miguel.cc</description>
+<item>
+
+	<title>miguel: change to blog blog/entry/your_own_kernel_with_amazon_ec2 on miguel.cc</title>
+	<dcterms:creator>miguel</dcterms:creator>
+
+
+	<guid>http://miguel.cc//recentchanges/change_da32db134406f6e9e5c956f1f49246dc5a2a8d6c/</guid>
+
+	<link>http://miguel.cc//recentchanges/#change-da32db134406f6e9e5c956f1f49246dc5a2a8d6c</link>
+
+	<pubDate>Tue, 20 Jul 2010 03:37:34 +0000</pubDate>
+	<dcterms:modified>2010-07-20T03:37:34Z</dcterms:modified>
+
+	<description>&lt;div class=&quot;metadata&quot; id=&quot;change-da32db134406f6e9e5c956f1f49246dc5a2a8d6c&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Fyour_own_kernel_with_amazon_ec2&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog/entry/your own kernel with amazon ec2&lt;/a&gt;
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Tue, 20 Jul 2010 03:37:34 +0000&quot;&gt;in the wee hours of Monday night 07/20/10&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Look ma, I&amp;#39;m blogging&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>miguel: change to .gitignore code contact grep index on miguel.cc</title>
+	<dcterms:creator>miguel</dcterms:creator>
+
+
+	<guid>http://miguel.cc//recentchanges/change_67efaecc2a75f902fe1c9f0ec882ce9764a41e5c/</guid>
+
+	<link>http://miguel.cc//recentchanges/#change-67efaecc2a75f902fe1c9f0ec882ce9764a41e5c</link>
+
+	<pubDate>Sun, 16 May 2010 03:19:34 +0000</pubDate>
+	<dcterms:modified>2010-05-16T03:19:34Z</dcterms:modified>
+
+	<description>&lt;div class=&quot;metadata&quot; id=&quot;change-67efaecc2a75f902fe1c9f0ec882ce9764a41e5c&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=.gitignore&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;.gitignore&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=code&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;code&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=contact&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;contact&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=grep&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;grep&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=index&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 16 May 2010 03:19:34 +0000&quot;&gt;in the wee hours of Saturday night 05/16/10&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+add new pages: index, code, contact and grep&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>miguel: change to .gitignore on miguel.cc</title>
+	<dcterms:creator>miguel</dcterms:creator>
+
+
+	<guid>http://miguel.cc//recentchanges/change_1dc5cfe60b4923ed9f04d955d4097e31ff4f210b/</guid>
+
+	<link>http://miguel.cc//recentchanges/#change-1dc5cfe60b4923ed9f04d955d4097e31ff4f210b</link>
+
+	<pubDate>Sun, 16 May 2010 02:48:40 +0000</pubDate>
+	<dcterms:modified>2010-05-16T02:48:40Z</dcterms:modified>
+
+	<description>&lt;div class=&quot;metadata&quot; id=&quot;change-1dc5cfe60b4923ed9f04d955d4097e31ff4f210b&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=.gitignore&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;.gitignore&lt;/a&gt;
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 16 May 2010 02:48:40 +0000&quot;&gt;in the wee hours of Saturday night 05/16/10&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+initial commit&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+</description>
+
+
+</item>
+
+</channel>
+</rss>

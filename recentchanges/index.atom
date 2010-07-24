@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>RecentChanges</title>
+<link href="http://miguel.cc//recentchanges/"/>
+<link href="http://miguel.cc//recentchanges/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>miguel.cc</name>
+
+</author>
+
+
+
+
+<id>http://miguel.cc//recentchanges/</id>
+
+<subtitle type="html">miguel.cc</subtitle>
+<generator uri="http://ikiwiki.info/" version="3.20100610">ikiwiki</generator>
+<updated>2010-07-20T03:37:34Z</updated>
+<entry>
+	<title>change to blog blog/entry/your_own_kernel_with_amazon_ec2 on miguel.cc</title>
+
+	<id>http://miguel.cc//recentchanges/change_da32db134406f6e9e5c956f1f49246dc5a2a8d6c/</id>
+
+	<link href="http://miguel.cc//recentchanges/#change-da32db134406f6e9e5c956f1f49246dc5a2a8d6c"/>
+
+	<author><name>miguel</name></author>
+
+
+
+
+
+	<updated>2010-07-20T03:37:34Z</updated>
+	<published>2010-07-20T03:37:34Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;metadata&quot; id=&quot;change-da32db134406f6e9e5c956f1f49246dc5a2a8d6c&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Fyour_own_kernel_with_amazon_ec2&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog/entry/your own kernel with amazon ec2&lt;/a&gt;
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Tue, 20 Jul 2010 03:37:34 +0000&quot;&gt;in the wee hours of Monday night 07/20/10&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Look ma, I&amp;#39;m blogging&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to .gitignore code contact grep index on miguel.cc</title>
+
+	<id>http://miguel.cc//recentchanges/change_67efaecc2a75f902fe1c9f0ec882ce9764a41e5c/</id>
+
+	<link href="http://miguel.cc//recentchanges/#change-67efaecc2a75f902fe1c9f0ec882ce9764a41e5c"/>
+
+	<author><name>miguel</name></author>
+
+
+
+
+
+	<updated>2010-05-16T03:19:34Z</updated>
+	<published>2010-05-16T03:19:34Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;metadata&quot; id=&quot;change-67efaecc2a75f902fe1c9f0ec882ce9764a41e5c&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=.gitignore&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;.gitignore&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=code&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;code&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=contact&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;contact&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=grep&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;grep&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=index&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 16 May 2010 03:19:34 +0000&quot;&gt;in the wee hours of Saturday night 05/16/10&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+add new pages: index, code, contact and grep&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to .gitignore on miguel.cc</title>
+
+	<id>http://miguel.cc//recentchanges/change_1dc5cfe60b4923ed9f04d955d4097e31ff4f210b/</id>
+
+	<link href="http://miguel.cc//recentchanges/#change-1dc5cfe60b4923ed9f04d955d4097e31ff4f210b"/>
+
+	<author><name>miguel</name></author>
+
+
+
+
+
+	<updated>2010-05-16T02:48:40Z</updated>
+	<published>2010-05-16T02:48:40Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;metadata&quot; id=&quot;change-1dc5cfe60b4923ed9f04d955d4097e31ff4f210b&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=.gitignore&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;.gitignore&lt;/a&gt;
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 16 May 2010 02:48:40 +0000&quot;&gt;in the wee hours of Saturday night 05/16/10&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+initial commit&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+	</content>
+
+
+
+</entry>
+
+</feed>

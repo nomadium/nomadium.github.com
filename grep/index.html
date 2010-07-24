@@ -1,0 +1,4745 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="must-revalidate" />
+<title>grep</title>
+
+<link rel="stylesheet" href="../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../local.css" type="text/css" />
+
+
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="http://miguel.cc/ikiwiki.cgi?page=grep&amp;do=edit" />
+
+<link rel="alternate" type="application/rss+xml" title="miguel.cc (RSS)" href="index.rss" /><link rel="alternate" type="application/atom+xml" title="miguel.cc (Atom)" href="index.atom" />
+
+
+</head>
+<body><script src="../ikiwiki/ikiwiki.js" type="text/javascript" charset="utf-8"></script>
+<script src="../ikiwiki/relativedate.js" type="text/javascript" charset="utf-8"></script>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../">miguel.cc</a>/ 
+
+</span>
+<span class="title">
+grep
+
+</span>
+</span>
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+<li><a href="http://miguel.cc/ikiwiki.cgi?page=grep&amp;do=edit" rel="nofollow">Edit</a></li>
+
+
+<li><a href="../recentchanges/">RecentChanges</a></li>
+
+
+
+
+<li><a href="http://miguel.cc/ikiwiki.cgi?do=prefs">Preferences</a></li>
+
+
+
+
+<li><span class="createlink"><a href="http://miguel.cc/ikiwiki.cgi?page=discussion&amp;from=grep&amp;do=create" rel="nofollow">?</a>Discussion</span></li>
+
+
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+
+<div id="pagebody">
+
+<div id="content">
+<p>Me or stuff that has to do with me, around the web.</p>
+
+<div id="feedlink">
+
+<a class="feedbutton" type="application/rss+xml" href="index.rss">RSS</a>
+
+
+<a class="feedbutton" type="application/atom+xml" href="index.atom">Atom</a>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Collective+Soul/_/Shine">Collective Soul &#x2013; Shine</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Collective+Soul
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 21:45:05 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/The+Shins/_/Caring+Is+Creepy">The Shins &#x2013; Caring Is Creepy</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/The+Shins
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 21:38:49 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Jazzanova/_/Introspection+%28Calm%27s+Outerspect+mix%29">Jazzanova &#x2013; Introspection (Calm&#x27;s Outerspect mix)</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Jazzanova
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 21:32:05 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Avril+Lavigne/_/Losing+Grip">Avril Lavigne &#x2013; Losing Grip</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Avril+Lavigne
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 21:28:12 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Matchbook+Romance/_/the+Greatest+Fall+of+All+Time">Matchbook Romance &#x2013; the Greatest Fall of All Time</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Matchbook+Romance
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 21:24:08 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Incubus/_/Aqueous+Transmission">Incubus &#x2013; Aqueous Transmission</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Incubus
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 21:16:21 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/The+Stills/_/Changes+are+No+Good">The Stills &#x2013; Changes are No Good</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/The+Stills
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 21:15:04 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Si%2AS%C3%A9/_/More+Shine">Si*S&#xE9; &#x2013; More Shine</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Si%2AS%C3%A9
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 21:07:12 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Lostprophets/_/Shinobi+vs.+Dragon+Ninja">Lostprophets &#x2013; Shinobi vs. Dragon Ninja</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Lostprophets
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 21:04:25 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Bacalao+Men/_/El+Comegente">Bacalao Men &#x2013; El Comegente</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Bacalao+Men
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 21:01:15 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/The+Whitest+Boy+Alive/_/Dead+End">The Whitest Boy Alive &#x2013; Dead End</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/The+Whitest+Boy+Alive
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 20:57:52 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Editors/_/Fingers+In+The+Factories">Editors &#x2013; Fingers In The Factories</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Editors
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 20:53:38 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Ibiza+Sunset+Project/_/Twilight+Skies">Ibiza Sunset Project &#x2013; Twilight Skies</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Ibiza+Sunset+Project
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 20:47:20 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Phoenix/_/1901">Phoenix &#x2013; 1901</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Phoenix
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 20:45:03 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Lily+Allen/_/Smile">Lily Allen &#x2013; Smile</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Lily+Allen
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 20:40:44 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Tsunami+Bomb/_/5150">Tsunami Bomb &#x2013; 5150</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Tsunami+Bomb
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 20:33:49 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Interpol/_/Specialist">Interpol &#x2013; Specialist</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Interpol
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 20:27:09 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Interpol/_/Mammoth">Interpol &#x2013; Mammoth</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Interpol
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 20:22:56 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Phoenix/_/Lasso">Phoenix &#x2013; Lasso</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Phoenix
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 20:20:06 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/The+Whitest+Boy+Alive/_/Inflation">The Whitest Boy Alive &#x2013; Inflation</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/The+Whitest+Boy+Alive
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 20:16:13 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Interpol/_/Who+Do+You+Think%3F">Interpol &#x2013; Who Do You Think?</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Interpol
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 20:15:05 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Sparta/_/Cataract">Sparta &#x2013; Cataract</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Sparta
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 20:01:19 +0000">late Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/The+Killers/_/Smile+Like+You+Mean+It">The Killers &#x2013; Smile Like You Mean It</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/The+Killers
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 19:57:24 +0000">Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Tsunami+Bomb/_/Dawn+on+a+Funeral+Day">Tsunami Bomb &#x2013; Dawn on a Funeral Day</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Tsunami+Bomb
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 19:54:15 +0000">Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Stereophonics/_/Rewind">Stereophonics &#x2013; Rewind</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Stereophonics
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 19:49:29 +0000">Saturday evening, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/19430789405">nomadium: #nowplaying Interpol - Stella Was A Diver and She Was Always Down</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: #nowplaying Interpol - Stella Was A Diver and She Was Always Down
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 24 Jul 2010 16:08:34 +0000">at teatime on Saturday, July 24th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/19377993264">nomadium: RT @sachac: I&#x27;d much rather be invaluable than indispensable.</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: RT @sachac: I&#39;d much rather be invaluable than indispensable.
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Fri, 23 Jul 2010 23:50:49 +0000">Friday night, July 23rd, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/19344771362">nomadium: @kriselborges ja, genau, das ist! sehr gut Deutsch! :)</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: @kriselborges ja, genau, das ist! sehr gut Deutsch! <img alt=":)" src="../smileys/smile.png" />
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Fri, 23 Jul 2010 14:47:33 +0000">Friday afternoon, July 23rd, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/19335893010">nomadium: @kriselborges haha, kannst du Deutsch? A veces es mejor decir las cosas medio &#x22;en clave&#x22;... ;P</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: @kriselborges haha, kannst du Deutsch? A veces es mejor decir las cosas medio &quot;en clave&quot;... ;P
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Fri, 23 Jul 2010 12:41:40 +0000">at lunch time on Friday, July 23rd, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/19293459070">nomadium: Ich m&#xF6;chte auswandern.</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: Ich m&ouml;chte auswandern.
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Thu, 22 Jul 2010 23:46:43 +0000">Thursday night, July 22nd, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/19272180419">nomadium: RT @LuisCarlos: Bogot&#xE1; y Caracas se pueden dejar de maricadas. Los que hemos estado o est&#xE1;n en fronteras saben de presencia de grupos ir ...</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: RT @LuisCarlos: Bogot&aacute; y Caracas se pueden dejar de maricadas. Los que hemos estado o est&aacute;n en fronteras saben de presencia de grupos ir ...
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Thu, 22 Jul 2010 17:46:26 +0000">late Thursday afternoon, July 22nd, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/19113352918">nomadium: New York City from Above RT @Patafunk: http://bit.ly/ajIlTo #photography #nyc</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: New York City from Above RT @Patafunk: http://bit.ly/ajIlTo #photography #nyc
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Wed, 21 Jul 2010 23:21:46 +0000">Wednesday night, July 21st, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/19070416186">nomadium: @CaracasChron ok no problem, s&#xF3;lo era curiosidad.</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: @CaracasChron ok no problem, s&oacute;lo era curiosidad.
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Wed, 21 Jul 2010 11:50:56 +0000">late Wednesday morning, July 21st, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/CaracasChron/statuses/19045626765">@nomadium Tristemente en ese post comet&#xED; un error grave y prefer&#xED; retirarlo mientras lo compongo.</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/nomadium"><b>@nomadium</b></a> Tristemente en ese post comet&iacute; un error grave y prefer&iacute; retirarlo mientras lo compongo.
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Wed, 21 Jul 2010 03:19:47 +0000">in the wee hours of Tuesday night, July 21st, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/19040941681">nomadium: Ask HN: Loosing Faith - the startup killer http://bit.ly/akjE9y (Very good discussion with applicable tips to personal projects).</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: Ask HN: Loosing Faith - the startup killer http://bit.ly/akjE9y (Very good discussion with applicable tips to personal projects).
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Wed, 21 Jul 2010 02:09:51 +0000">in the wee hours of Tuesday night, July 21st, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/19031173029">nomadium: @CaracasChron no, el acceso a WashPost es libre, pude leer el art&#xED;culo sin problemas. Me refiero a tu post sobre Isa&#xED;as http://bit.ly/9Eul1E</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: @CaracasChron no, el acceso a WashPost es libre, pude leer el art&iacute;culo sin problemas. Me refiero a tu post sobre Isa&iacute;as http://bit.ly/9Eul1E
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Tue, 20 Jul 2010 23:34:02 +0000">Tuesday night, July 20th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/CaracasChron/statuses/19028419806">@nomadium - bien vale la pena los 30 segundos que tarda hacerse una cuenta en el WashPost para leer Top Secret America http://bit.ly/9muhMa</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/nomadium"><b>@nomadium</b></a> - bien vale la pena los 30 segundos que tarda hacerse una cuenta en el WashPost para leer Top Secret America <a href="http://bit.ly/9muhMa">http://bit.ly/9muhMa</a>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Tue, 20 Jul 2010 22:48:20 +0000">Tuesday night, July 20th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/t6435bm/statuses/19021147871">me son&#xF3; a misiones hasta que vi que hab&#xED;an CONSTRUIDO edificios RT @nomadium: A hidden world, growing beyond control: http://bit.ly/coL4J3</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+me son&oacute; a misiones hasta que vi que hab&iacute;an CONSTRUIDO edificios RT <a href="http://twitter.com/nomadium"><b>@nomadium</b></a>: A hidden world, growing beyond control: <a href="http://bit.ly/coL4J3">http://bit.ly/coL4J3</a>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Tue, 20 Jul 2010 20:43:58 +0000">late Tuesday evening, July 20th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/19013938754">nomadium: @CaracasChron el link al art&#xED;culo devuelve este mensaje: &#x22;Please login to continue&#x22;. &#xBF;Es necesario registrarse para leerlo?</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: @CaracasChron el link al art&iacute;culo devuelve este mensaje: &quot;Please login to continue&quot;. &iquest;Es necesario registrarse para leerlo?
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Tue, 20 Jul 2010 18:32:54 +0000">Tuesday evening, July 20th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/19011601412">nomadium: A hidden world, growing beyond control: http://bit.ly/coL4J3 #politics #world #usa</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: A hidden world, growing beyond control: http://bit.ly/coL4J3 #politics #world #usa
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Tue, 20 Jul 2010 17:52:46 +0000">late Tuesday afternoon, July 20th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/18989840366">nomadium: RT @diefenbach: Oxymoron des Tages: Aus einem Stellengesuch: &#x22;Erfahrungen bei der Entwicklung von sicheren und robusten PHP-Anwendungen&#x22; ...</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: RT @diefenbach: Oxymoron des Tages: Aus einem Stellengesuch: &quot;Erfahrungen bei der Entwicklung von sicheren und robusten PHP-Anwendungen&quot; ...
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Tue, 20 Jul 2010 12:34:37 +0000">at lunch time on Tuesday, July 20th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/18934177131">nomadium: RT @zedshaw: Mongrel2 Is Now BSD Licensed: http://is.gd/dyjKL</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: RT @zedshaw: Mongrel2 Is Now BSD Licensed: http://is.gd/dyjKL
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Mon, 19 Jul 2010 18:08:05 +0000">Monday evening, July 19th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/pctroll/statuses/18920845398">Buen d&#xED;a. Inicio la semana agradeciendo a @rmonascal  @lobachevscki @nomadium @chiguire @Anr@2 @cdavid17 @jbernadas @odubah por el apoyo =D</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+Buen d&iacute;a. Inicio la semana agradeciendo a <a href="http://twitter.com/rmonascal">@rmonascal</a>  <a href="http://twitter.com/lobachevscki">@lobachevscki</a> <a href="http://twitter.com/nomadium"><b>@nomadium</b></a> <a href="http://twitter.com/chiguire">@chiguire</a> @Anr@2 <a href="http://twitter.com/cdavid17">@cdavid17</a> <a href="http://twitter.com/jbernadas">@jbernadas</a> <a href="http://twitter.com/odubah">@odubah</a> por el apoyo =D
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Mon, 19 Jul 2010 14:43:31 +0000">Monday afternoon, July 19th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/18912920617">nomadium: RT @gabriela2400: Top 10 amazon.com Bible reviews http://tumblr.com/xvsdpih1r xD jajaja</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: RT @gabriela2400: Top 10 amazon.com Bible reviews http://tumblr.com/xvsdpih1r xD jajaja
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Mon, 19 Jul 2010 12:43:38 +0000">at lunch time on Monday, July 19th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/18856849922">nomadium: You can also check at http://bit.ly/dBwrUd if you care to help. #debian #spring</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: You can also check at http://bit.ly/dBwrUd if you care to help. #debian #spring
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sun, 18 Jul 2010 18:31:12 +0000">Sunday evening, July 18th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/18856765986">nomadium: Working to have Spring Framework 3.0 and its deps in #debian #squeeze, thx to @torstenwerner and @drazzib for their sponsoring and collab.</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: Working to have Spring Framework 3.0 and its deps in #debian #squeeze, thx to @torstenwerner and @drazzib for their sponsoring and collab.
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sun, 18 Jul 2010 18:29:36 +0000">Sunday evening, July 18th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/18856077044">nomadium: Satisfactorio: responder correos a estudiantes aclarando dudas sobre implementaci&#xF3;n de papers escritos en la &#xE9;poca de mi tesis de pregrado.</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: Satisfactorio: responder correos a estudiantes aclarando dudas sobre implementaci&oacute;n de papers escritos en la &eacute;poca de mi tesis de pregrado.
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sun, 18 Jul 2010 18:15:52 +0000">Sunday evening, July 18th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/18854532757">nomadium: RT @chiguire: Otro reportaje sobre @f_filantropia en @eluniversal http://www.eluniversal.com/2010/07/18/eco_art_inside-telecom_1976487.shtml</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: RT @chiguire: Otro reportaje sobre @f_filantropia en @eluniversal http://www.eluniversal.com/2010/07/18/eco_art_inside-telecom_1976487.shtml
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sun, 18 Jul 2010 17:45:51 +0000">late Sunday afternoon, July 18th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/18853965606">nomadium: Taking Back Sunday: Great band, great motto.</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: Taking Back Sunday: Great band, great motto.
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sun, 18 Jul 2010 17:34:58 +0000">late Sunday afternoon, July 18th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/18741464067">nomadium: @t6435bm dieser Tweet machte mich daran erinnern das Buch &#x22;La Historia Fabulada&#x22; von Francisco Herrera Luque http://bit.ly/aP9fyf</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: @t6435bm dieser Tweet machte mich daran erinnern das Buch &quot;La Historia Fabulada&quot; von Francisco Herrera Luque http://bit.ly/aP9fyf
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 17 Jul 2010 04:24:18 +0000">in the wee hours of Friday night, July 17th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/18740622685">nomadium: RT @t6435bm: todo esto de los restos simb&#xF3;licos y la exhumaci&#xF3;n me despert&#xF3; la imaginaci&#xF3;n. http://bit.ly/cqFbvz</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: RT @t6435bm: todo esto de los restos simb&oacute;licos y la exhumaci&oacute;n me despert&oacute; la imaginaci&oacute;n. http://bit.ly/cqFbvz
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 17 Jul 2010 04:10:35 +0000">in the wee hours of Friday night, July 17th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/18735031782">nomadium: Morgen werde ich einem kleinen Vortrag &#xFC;ber Twitter im Deutsch-Kurs geben. #cool</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: Morgen werde ich einem kleinen Vortrag &uuml;ber Twitter im Deutsch-Kurs geben. #cool
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 17 Jul 2010 02:41:40 +0000">in the wee hours of Friday night, July 17th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/18734316949">nomadium: ...also CANTV mess with BGP and disconnect the whole friggin&#x27; country, I wonder what&#x27;s next?</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: ...also CANTV mess with BGP and disconnect the whole friggin&#39; country, I wonder what&#39;s next?
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 17 Jul 2010 02:30:16 +0000">in the wee hours of Friday night, July 17th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://twitter.com/nomadium">twitter entries</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/nomadium/statuses/18734226187">nomadium: oh boy, you disconnect for 24 hours, and it happens almost everything: Necrophilic show performed by our *beloved* leader...</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+nomadium: oh boy, you disconnect for 24 hours, and it happens almost everything: Necrophilic show performed by our *beloved* leader...
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 17 Jul 2010 02:28:50 +0000">in the wee hours of Friday night, July 17th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/gerard0/statuses/18548339254">@nomadium Erlang me dej&#xF3; muy impresionado, por eso me han atraido Scala y Clojure, pq corren en la JVM y Clojure por ser Lisp-like</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/nomadium"><b>@nomadium</b></a> Erlang me dej&oacute; muy impresionado, por eso me han atraido Scala y Clojure, pq corren en la JVM y Clojure por ser Lisp-like
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Wed, 14 Jul 2010 21:03:30 +0000">late Wednesday evening, July 14th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/gerard0/statuses/18548247193">@nomadium no todavia, pero he querido una webapp, ademas de usar un lenguaje concurrente y en la JVM. Mira http://bit.ly/9Mk0Fa</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/nomadium"><b>@nomadium</b></a> no todavia, pero he querido una webapp, ademas de usar un lenguaje concurrente y en la JVM. Mira <a href="http://bit.ly/9Mk0Fa">http://bit.ly/9Mk0Fa</a>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Wed, 14 Jul 2010 21:01:52 +0000">late Wednesday evening, July 14th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/rafaelchacon/statuses/18538295027">@nomadium snow leopard....</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/nomadium"><b>@nomadium</b></a> snow leopard....
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Wed, 14 Jul 2010 18:09:09 +0000">Wednesday evening, July 14th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/JulioSuarezN/statuses/18300401719">A menos que meta el gol... RT @nomadium: FAIL: Cambiar a Villa por Torres.</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+A menos que meta el gol... RT <a href="http://twitter.com/nomadium"><b>@nomadium</b></a>: FAIL: Cambiar a Villa por Torres.
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sun, 11 Jul 2010 20:50:17 +0000">late Sunday evening, July 11th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/JulioSuarezN/statuses/18219399634">Lahm se neg&#xF3; a jugar por su car&#xE1;cter ganador o por ser un mal perdedor? @nomadium</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+Lahm se neg&oacute; a jugar por su car&aacute;cter ganador o por ser un mal perdedor? <a href="http://twitter.com/nomadium"><b>@nomadium</b></a>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 10 Jul 2010 19:54:26 +0000">Saturday evening, July 10th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/1zq/statuses/18125138585">@nomadium: jajaja, acabo de ver esto</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/nomadium"><b>@nomadium</b></a>: jajaja, acabo de ver esto
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Fri, 09 Jul 2010 15:09:56 +0000">Friday afternoon, July  9th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/satanas82/statuses/18085535478">@nomadium Mierr... &#xA1;que horrible!</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/nomadium"><b>@nomadium</b></a> Mierr... &iexcl;que horrible!
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Fri, 09 Jul 2010 02:59:53 +0000">in the wee hours of Thursday night, July  9th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/satanas82/statuses/18085283244">@nomadium @chiguire @w3asel Y donde dejamos &#x22;indexar&#x22;? La palabra correcta ser&#xED;a &#x22;indizar&#x22; de &#xED;ndice</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/nomadium"><b>@nomadium</b></a> <a href="http://twitter.com/chiguire">@chiguire</a> <a href="http://twitter.com/w3asel">@w3asel</a> Y donde dejamos &quot;indexar&quot;? La palabra correcta ser&iacute;a &quot;indizar&quot; de &iacute;ndice
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Fri, 09 Jul 2010 02:55:59 +0000">in the wee hours of Thursday night, July  9th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/e1gato/statuses/17923518578">@JulioSuarezN @alexmurilloq @chosper @oscarmartinezL @nomadium @KirHer @estelarbarriola @gabozerpa @dolcejessica #Noentiendo</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/JulioSuarezN">@JulioSuarezN</a> <a href="http://twitter.com/alexmurilloq">@alexmurilloq</a> <a href="http://twitter.com/chosper">@chosper</a> <a href="http://twitter.com/oscarmartinezL">@oscarmartinezL</a> <a href="http://twitter.com/nomadium"><b>@nomadium</b></a> <a href="http://twitter.com/KirHer">@KirHer</a> <a href="http://twitter.com/estelarbarriola">@estelarbarriola</a> <a href="http://twitter.com/gabozerpa">@gabozerpa</a> <a href="http://twitter.com/dolcejessica">@dolcejessica</a> <a href="http://search.twitter.com/search?q=%23Noentiendo">#Noentiendo</a>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Wed, 07 Jul 2010 04:39:45 +0000">in the wee hours of Tuesday night, July  7th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/JulioSuarezN/statuses/17912408611">Tremenda secuela aunque sin la est&#xE9;tica de Kubrick RT @nomadium: @JulioSuarezN yo me tripeo a&#xFA;n m&#xE1;s que 2010 (cont) http://tl.gd/2bhlp9</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+Tremenda secuela aunque sin la est&eacute;tica de Kubrick RT <a href="http://twitter.com/nomadium"><b>@nomadium</b></a>: <a href="http://twitter.com/JulioSuarezN">@JulioSuarezN</a> yo me tripeo a&uacute;n m&aacute;s que 2010 (cont) <a href="http://tl.gd/2bhlp9">http://tl.gd/2bhlp9</a>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Wed, 07 Jul 2010 01:48:18 +0000">late Tuesday night, July  7th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/argenisalbornoz/statuses/17943424476">RT @JulioSuarezN: Holanda - Uruguay fue un partido de hombres que juegan al f&#xFA;tbol... No estrellas del peine y moco de gorila&#x2122; @nomadium</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+RT <a href="http://twitter.com/JulioSuarezN">@JulioSuarezN</a>: Holanda - Uruguay fue un partido de hombres que juegan al f&uacute;tbol... No estrellas del peine y moco de gorila&trade; <a href="http://twitter.com/nomadium"><b>@nomadium</b></a>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Tue, 06 Jul 2010 20:48:10 +0000">late Tuesday evening, July  6th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/JulioSuarezN/statuses/17895377704">Holanda - Uruguay fue un partido de hombres que juegan al f&#xFA;tbol... No estrellas del peine y moco de gorila&#x2122; @nomadium</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+Holanda - Uruguay fue un partido de hombres que juegan al f&uacute;tbol... No estrellas del peine y moco de gorila&trade; <a href="http://twitter.com/nomadium"><b>@nomadium</b></a>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Tue, 06 Jul 2010 20:46:32 +0000">late Tuesday evening, July  6th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.youtube.com/watch?v=gyBe5-irc_4&feature=related">YouTube - Monsterst&#xE4;der | Cities on Speed - Bogot&#xE1; Change (Part 1/6)</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Mon, 05 Jul 2010 19:01:53 +0000">Monday evening, July  5th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/t6435bm/statuses/17741585047">@nomadium Das war SWR cont.ra . Schau mal im google nach. Kannst auch nach ARD radio suchen, da findest du mehrere &#xF6;ffentliche sender.</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/nomadium"><b>@nomadium</b></a> Das war SWR cont.ra . Schau mal im google nach. Kannst auch nach ARD radio suchen, da findest du mehrere &ouml;ffentliche sender.
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sun, 04 Jul 2010 20:04:43 +0000">late Sunday evening, July  4th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/t6435bm/statuses/17681183985">@nomadium gern geschehen!</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/nomadium"><b>@nomadium</b></a> gern geschehen!
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 03 Jul 2010 22:42:11 +0000">Saturday night, July  3rd, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/pctroll/statuses/17520147501">@nomadium Yo luego te echo bien el cuento de MiPunto.com por gtalk.</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/nomadium"><b>@nomadium</b></a> Yo luego te echo bien el cuento de MiPunto.com por gtalk.
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Thu, 01 Jul 2010 20:57:59 +0000">late Thursday evening, July  1st, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/CamonZ/statuses/17433524804">@nomadium scifi de neal stephenson. Muy, muy, muy bueno.</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/nomadium"><b>@nomadium</b></a> scifi de neal stephenson. Muy, muy, muy bueno.
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Wed, 30 Jun 2010 18:32:49 +0000">Wednesday evening, June 30th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/CamonZ/statuses/17432751128">@nomadium ciertamente. Me recuerda tambien a snowcrash y la idea de un metalenguaje que da acceso directo al subconsciente</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/nomadium"><b>@nomadium</b></a> ciertamente. Me recuerda tambien a snowcrash y la idea de un metalenguaje que da acceso directo al subconsciente
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Wed, 30 Jun 2010 18:18:52 +0000">Wednesday evening, June 30th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/gerard0/statuses/17374650998">@andreacbravob @nomadium no habia nada, absolutamente nada en el frontpage http://techcrunch.com/2010/06/29/amazon-down-2/</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/andreacbravob">@andreacbravob</a> <a href="http://twitter.com/nomadium"><b>@nomadium</b></a> no habia nada, absolutamente nada en el frontpage <a href="http://techcrunch.com/2010/06/29/amazon-down-2/">http://techcrunch.com/2010/06/29/amazon-down-2/</a>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Wed, 30 Jun 2010 00:39:36 +0000">late Tuesday night, June 30th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/dedsm/statuses/17371001676">@nomadium: bueno, en mi empresa el beta lo montamos en suckbuntu server precisamente porque #debian no ten&#xED;a #python 2.6, ya puedo descansar</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/nomadium"><b>@nomadium</b></a>: bueno, en mi empresa el beta lo montamos en suckbuntu server precisamente porque <a href="http://search.twitter.com/search?q=%23debian">#debian</a> no ten&iacute;a <a href="http://search.twitter.com/search?q=%23python">#python</a> 2.6, ya puedo descansar
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Tue, 29 Jun 2010 23:37:19 +0000">Tuesday night, June 29th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/dedsm/statuses/17370420145">@nomadium: verga, por fin #python 2.6 en #debian</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/nomadium"><b>@nomadium</b></a>: verga, por fin <a href="http://search.twitter.com/search?q=%23python">#python</a> 2.6 en <a href="http://search.twitter.com/search?q=%23debian">#debian</a>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Tue, 29 Jun 2010 23:27:06 +0000">Tuesday night, June 29th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.youtube.com/view_play_list?p=6A1FD147A45EF50D">The Greatest Shortcoming of the Human Race is our Inability to Understand the Exponential Function</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 29 May 2010 23:24:53 +0000">Saturday night, May 29th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Soda+Stereo/_/Signos">Soda Stereo &#x2013; Signos</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Soda+Stereo
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sun, 16 May 2010 02:20:08 +0000">in the wee hours of Saturday night, May 16th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://www.last.fm/user/nomadium">last.fm</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.last.fm/music/Gentleman+and+the+Far+East+Band/_/Call+Me+On+The+Telephone">Gentleman and the Far East Band &#x2013; Call Me On The Telephone</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+http://www.last.fm/music/Gentleman+and+the+Far+East+Band
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 15 May 2010 11:14:15 +0000">late Saturday morning, May 15th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://twitter.com/bureado/statuses/14013666214">@nomadium DDs, 1.http://db.debian.org/ buscas Venezuela 2.Con el login en qa.debian.org. DMs, no hay fuente &#xFA;nica, antes en debian.org.ve.</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<a href="http://twitter.com/nomadium"><b>@nomadium</b></a> DDs, 1.<a href="http://db.debian.org/">http://db.debian.org/</a> buscas Venezuela 2.Con el login en qa.debian.org. DMs, no hay fuente &uacute;nica, antes en debian.org.ve.
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sat, 15 May 2010 02:51:12 +0000">in the wee hours of Friday night, May 15th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.schneier.com/blog/archives/2010/04/man-in-the-midd_2.html">Schneier on Security: Man-in-the-Middle Attacks Against SSL</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+This paper introduces a new attack, the compelled certificate creation attack, in which government agencies compel a certificate authority to issue false SSL certificates that are then used by intelligence agencies to covertly intercept and hijack individuals&#39; secure Web-based communications. We reveal alarming evidence that suggests that this attack is in active use. Finally, we introduce a lightweight browser add-on that detects and thwarts such attacks.
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Tue, 13 Apr 2010 12:20:47 +0000">at lunch time on Tuesday, April 13th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.friedhoff.org/posixfilecaps.html">Chris Friedhoff - POSIXFileCaps</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Mon, 12 Apr 2010 18:30:04 +0000">Monday evening, April 12th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://kitenet.net/~joey/boxen/darkstar/">joey/ boxen/ darkstar</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+Content of a mail I sent to Patrick Volkerding on April 12, 2010...
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Mon, 12 Apr 2010 15:19:06 +0000">Monday afternoon, April 12th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://snapshot.debian.org/">snapshot.debian.org</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+The snapshot archive is a wayback machine that allows access to old packages based on dates and version numbers. It consists of all past and current packages the Debian archive provides.
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Mon, 12 Apr 2010 15:00:31 +0000">Monday afternoon, April 12th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.tomcatexpert.com/blog/2010/04/06/tomcats-new-memory-leak-prevention-and-detection">Tomcat&#x27;s new memory leak prevention and detection</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Tue, 06 Apr 2010 19:13:21 +0000">Tuesday evening, April  6th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://marc.info/?l=openbsd-announce&m=126801526410398&w=2">&#x27;Announce: OpenSSH 5.4 released&#x27; - MARC</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Tue, 09 Mar 2010 03:19:39 +0000">in the wee hours of Monday night, March  9th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html">One Div Zero: A Brief, Incomplete, and Mostly Wrong History of Programming Languages</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+A Brief, Incomplete, and Mostly Wrong History of Programming Languages
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Tue, 02 Feb 2010 18:36:03 +0000">Tuesday evening, February  2nd, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://i.imgur.com/f84tw.jpg">f84tw.jpg (JPEG Image, 1125x1868 pixels) (or why I didn&#x27;t buy you a drink)</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Tue, 19 Jan 2010 00:52:42 +0000">late Monday night, January 19th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.itblame.com/">ExtraHop - IT Blame Game</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Tue, 19 Jan 2010 00:51:06 +0000">late Monday night, January 19th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="https://help.ubuntu.com/community/Grub2">Grub2 - Community Ubuntu Documentation</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sun, 17 Jan 2010 23:23:25 +0000">Sunday night, January 17th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www.calcanet.com/">Calcanet - Hospedaje web, Hosting y Registro de dominios en Venezuela.</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+dominios .com pagaderos en BsF.
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Fri, 15 Jan 2010 23:43:54 +0000">Friday night, January 15th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://www-formal.stanford.edu/jmc/recursive.html">RECURSIVE FUNCTIONS OF SYMBOLIC EXPRESSIONS AND THEIR COMPUTATION BY MACHINE (Part I) (12-May-1998)</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+original LISP paper
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Thu, 07 Jan 2010 14:26:25 +0000">Thursday afternoon, January  7th, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://gigapedia.com/">welcome - gigapedia.com</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sun, 03 Jan 2010 23:44:54 +0000">Sunday night, January  3rd, 2010</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://a.aaaarg.org/">AAAARG.ORG</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+a bunch of books
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Wed, 23 Dec 2009 19:16:02 +0000">Wednesday evening, December 23rd, 2009</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="author">
+
+<a href="http://del.icio.us/nomadium">delicious bookmarks</a>
+
+</span>
+
+<span class="header">
+
+<a href="http://failuremag.com/index.php/site/print/million_dollar_math_problem/">Million Dollar Math Problem</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Wed, 23 Dec 2009 01:10:37 +0000">late Tuesday night, December 23rd, 2009</span>
+</span>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+<hr />
+
+<p>List of feeds:</p>
+
+<ul>
+<li><a href="http://twitter.com/nomadium">twitter entries</a>: last checked <span class="relativedate" title="Sat, 24 Jul 2010 21:45:04 +0000">late Saturday evening, July 24th, 2010</span> (136 posts)</li>
+<li><a href="http://search.twitter.com/search?q=%40nomadium">twitter replies</a>: last checked <span class="relativedate" title="Sat, 24 Jul 2010 22:00:02 +0000">Saturday night, July 24th, 2010</span> (37 posts)</li>
+<li><a href="http://www.last.fm/user/nomadium">last.fm</a>: last checked <span class="relativedate" title="Sat, 24 Jul 2010 21:45:05 +0000">late Saturday evening, July 24th, 2010</span> (1197 posts; 7 new)</li>
+<li><a href="http://del.icio.us/nomadium">delicious bookmarks</a>: last checked <span class="relativedate" title="Sat, 24 Jul 2010 21:45:05 +0000">late Saturday evening, July 24th, 2010</span> (17 posts)</li>
+</ul>
+
+</div>
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+<div id="backlinks">
+Links:
+
+<a href="../">index</a>
+
+
+</div>
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="relativedate" title="Sun, 16 May 2010 02:40:16 +0000">in the wee hours of Saturday night, May 16th, 2010</span>
+<!-- Created <span class="relativedate" title="Sun, 16 May 2010 02:40:16 +0000">in the wee hours of Saturday night, May 16th, 2010</span> -->
+</div>
+
+</div>
+
+
+<!-- from miguel.cc -->
+</div>
+
+</div>
+
+</body>
+</html>
