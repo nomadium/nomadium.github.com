@@ -8,6 +8,41 @@
 <description>miguel.cc</description>
 <item>
 
+	<title>ikiwiki + github pages = EPIC win!</title>
+
+
+	<guid>http://miguel.cc//blog/entry/ikiwiki_and_github_pages_equals_epic_win/</guid>
+
+	<link>http://miguel.cc//blog/entry/ikiwiki_and_github_pages_equals_epic_win/</link>
+
+	<pubDate>Mon, 26 Jul 2010 18:41:32 -0430</pubDate>
+	<dcterms:modified>2010-07-26T23:11:32Z</dcterms:modified>
+
+	<description>&lt;p&gt;Since a while ago I was aware of the possibility of hosting an ikiwiki
+generated website at github using &lt;a href=&quot;http://pages.github.com/&quot;&gt;github pages&lt;/a&gt;.
+This is described with great detail on &lt;a href=&quot;http://ikiwiki.info/tips/github/&quot;&gt;tips section of ikiwiki website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Later, it was &lt;a href=&quot;http://github.com/blog/315-cname-support-for-github-pages&quot;&gt;announced the possibility of using custom domains&lt;/a&gt; with github pages, but unfortunately this feature was
+available only to paying customers. Don&amp;#39;t get me wrong, github is fantastic
+and they provide a service really worth paying for (especially for private
+projects), but for a &lt;a href=&quot;http://en.wikipedia.org/wiki/CADIVI&quot;&gt;dollar starved guy like me&lt;/a&gt;, I try to
+avoid any expense in foreign currency.&lt;/p&gt;
+
+&lt;p&gt;So, it was cool to find out that the custom domain feature for github pages
+now is free. I decided to give a try and migrate this website hosting there.
+I could save a few bucks with hosting and gained the feature of updating my
+website using git standard tools (pretty awesome and convenient if you ask me,
+with one push you can publish updates or revert changes).&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m going to investigate options about how to implement the dynamic portion of
+ikiwiki (ikiwiki.cgi, and maybe comments), but for now my main use case of
+ikiwiki is covered with github pages provided hosting.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>your own kernel with amazon ec2</title>
 
 
@@ -19,8 +54,8 @@
 	<category>debian</category>
 
 
-	<pubDate>Tue, 20 Jul 2010 03:00:51 +0000</pubDate>
-	<dcterms:modified>2010-07-20T03:19:25Z</dcterms:modified>
+	<pubDate>Mon, 19 Jul 2010 23:07:34 -0430</pubDate>
+	<dcterms:modified>2010-07-20T03:37:34Z</dcterms:modified>
 
 	<description>&lt;p&gt;Recently,
 &lt;a href=&quot;http://aws.typepad.com/aws/2010/07/use-your-own-kernel-with-amazon-ec2.html&quot;&gt;Amazon announced support&lt;/a&gt;

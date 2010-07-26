@@ -16,8 +16,48 @@
 <id>http://miguel.cc//blog/</id>
 
 <subtitle type="html">miguel.cc</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20100610">ikiwiki</generator>
-<updated>2010-07-20T03:19:25Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20100722">ikiwiki</generator>
+<updated>2010-07-26T23:11:32Z</updated>
+<entry>
+	<title>ikiwiki + github pages = EPIC win!</title>
+
+	<id>http://miguel.cc//blog/entry/ikiwiki_and_github_pages_equals_epic_win/</id>
+
+	<link href="http://miguel.cc//blog/entry/ikiwiki_and_github_pages_equals_epic_win/"/>
+
+
+
+
+
+	<updated>2010-07-26T23:11:32Z</updated>
+	<published>2010-07-26T23:11:32Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Since a while ago I was aware of the possibility of hosting an ikiwiki
+generated website at github using &lt;a href=&quot;http://pages.github.com/&quot;&gt;github pages&lt;/a&gt;.
+This is described with great detail on &lt;a href=&quot;http://ikiwiki.info/tips/github/&quot;&gt;tips section of ikiwiki website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Later, it was &lt;a href=&quot;http://github.com/blog/315-cname-support-for-github-pages&quot;&gt;announced the possibility of using custom domains&lt;/a&gt; with github pages, but unfortunately this feature was
+available only to paying customers. Don&amp;#39;t get me wrong, github is fantastic
+and they provide a service really worth paying for (especially for private
+projects), but for a &lt;a href=&quot;http://en.wikipedia.org/wiki/CADIVI&quot;&gt;dollar starved guy like me&lt;/a&gt;, I try to
+avoid any expense in foreign currency.&lt;/p&gt;
+
+&lt;p&gt;So, it was cool to find out that the custom domain feature for github pages
+now is free. I decided to give a try and migrate this website hosting there.
+I could save a few bucks with hosting and gained the feature of updating my
+website using git standard tools (pretty awesome and convenient if you ask me,
+with one push you can publish updates or revert changes).&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m going to investigate options about how to implement the dynamic portion of
+ikiwiki (ikiwiki.cgi, and maybe comments), but for now my main use case of
+ikiwiki is covered with github pages provided hosting.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>your own kernel with amazon ec2</title>
 
@@ -33,8 +73,8 @@
 	<category term="debian" />
 
 
-	<updated>2010-07-20T03:19:25Z</updated>
-	<published>2010-07-20T03:00:51Z</published>
+	<updated>2010-07-20T03:37:34Z</updated>
+	<published>2010-07-20T03:37:34Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Recently,

@@ -16,8 +16,128 @@
 <id>http://miguel.cc//recentchanges/</id>
 
 <subtitle type="html">miguel.cc</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20100610">ikiwiki</generator>
-<updated>2010-07-20T03:37:34Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20100722">ikiwiki</generator>
+<updated>2010-07-26T01:21:03Z</updated>
+<entry>
+	<title>change to CNAME on miguel.cc</title>
+
+	<id>http://miguel.cc//recentchanges/change_6777bd98559eceb36374dc6c10e341a623ef4005/</id>
+
+	<link href="http://miguel.cc//recentchanges/#change-6777bd98559eceb36374dc6c10e341a623ef4005"/>
+
+	<author><name>miguel</name></author>
+
+
+
+
+
+	<updated>2010-07-26T01:21:03Z</updated>
+	<published>2010-07-26T01:21:03Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;metadata&quot; id=&quot;change-6777bd98559eceb36374dc6c10e341a623ef4005&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=CNAME&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;CNAME&lt;/a&gt;
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 25 Jul 2010 20:51:03 -0430&quot;&gt;late Sunday evening 07/25/10&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+enable github pages CNAME feature for miguel.cc&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to CNAME on miguel.cc</title>
+
+	<id>http://miguel.cc//recentchanges/change_e49b9e505d8e879dbe101bef2f7435e709f139b9/</id>
+
+	<link href="http://miguel.cc//recentchanges/#change-e49b9e505d8e879dbe101bef2f7435e709f139b9"/>
+
+	<author><name>miguel</name></author>
+
+
+
+
+
+	<updated>2010-07-25T22:04:10Z</updated>
+	<published>2010-07-25T22:04:10Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;metadata&quot; id=&quot;change-e49b9e505d8e879dbe101bef2f7435e709f139b9&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=CNAME&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;CNAME&lt;/a&gt;
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 25 Jul 2010 17:34:10 -0430&quot;&gt;late Sunday afternoon 07/25/10&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+test github pages CNAME feature for nomadium.org&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to blog blog/entry/your_own_kernel_with_amazon_ec2 on miguel.cc</title>
 
@@ -57,7 +177,7 @@
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Tue, 20 Jul 2010 03:37:34 +0000&quot;&gt;in the wee hours of Monday night 07/20/10&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Mon, 19 Jul 2010 23:07:34 -0430&quot;&gt;Monday night 07/19/10&lt;/span&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
@@ -133,7 +253,7 @@ Look ma, I&amp;#39;m blogging&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 16 May 2010 03:19:34 +0000&quot;&gt;in the wee hours of Saturday night 05/16/10&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sat, 15 May 2010 22:49:34 -0430&quot;&gt;Saturday night 05/15/10&lt;/span&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
@@ -193,7 +313,7 @@ add new pages: index, code, contact and grep&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 16 May 2010 02:48:40 +0000&quot;&gt;in the wee hours of Saturday night 05/16/10&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sat, 15 May 2010 22:18:40 -0430&quot;&gt;Saturday night 05/15/10&lt;/span&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
