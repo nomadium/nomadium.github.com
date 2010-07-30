@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>mongrel2 development</title>
+
+<link rel="stylesheet" href="../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../local.css" type="text/css" />
+
+
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Fmongrel2_development&amp;do=edit" />
+
+
+
+
+</head>
+<body><script src="../../../ikiwiki/ikiwiki.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../../ikiwiki/relativedate.js" type="text/javascript" charset="utf-8"></script>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../">miguel.cc</a>/ 
+
+<a href="../../">blog</a>/ 
+
+<a href="../../../">entry</a>/ 
+
+</span>
+<span class="title">
+mongrel2 development
+
+</span>
+</span>
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+<li><a href="http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Fmongrel2_development&amp;do=edit" rel="nofollow">Edit</a></li>
+
+
+<li><a href="../../../recentchanges/">RecentChanges</a></li>
+
+
+
+
+<li><a href="http://miguel.cc/ikiwiki.cgi?do=prefs">Preferences</a></li>
+
+
+
+
+<li><span class="createlink"><a href="http://miguel.cc/ikiwiki.cgi?page=discussion&amp;from=blog%2Fentry%2Fmongrel2_development&amp;do=create" rel="nofollow">?</a>Discussion</span></li>
+
+
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+
+<div id="pagebody">
+
+<div id="content">
+<p>In my opinion you can learn a lot <a href="http://twitter.com/zedshaw">following the development process</a>
+of <a href="http://mongrel2.org/">Mongrel2</a>. Mongrel2 is a redesign of Mongrel web server and it
+is a project that have as goal to provide an application, language, and network
+architecture agnostic web server.</p>
+
+<p>This is probably the most interesting project that I could find right now on
+the web, because it is under heavy development, it is using new concepts and
+ideas, it is written in C (<a href="http://mongrel2.org/artifact?name=0222d9bb954be5237b1f6be69ef62d9a53a1e4dd">very clear and legible code</a> if you ask
+me), the development process is totally in the open, and this could benefit
+many people if successfully achieve its goal.</p>
+
+<p>Because of that, and because of the very big bold goal of this project I&#39;m
+following its progress, I&#39;m testing it and I plan to contribute with Mongrel2
+if possible. By now, I&#39;m only contributing from the distribution side of
+things, so I prepared some packages necessary to test Mongrel2 in Debian
+(despite Mr. Zed Shaw is very critic of the ``slowness&#39;&#39; of Linux distributions
+picking new software).</p>
+
+<p>Anyway, below are some links to binary and source packages for Mongrel2 and a
+couple of dependencies, if anyone besides me is interested in testing this
+in Debian (or Ubuntu). I already asked for review to have those packages
+included officially in Debian.</p>
+
+<ul>
+<li><p>mongrel2</p>
+
+<ul>
+<li><a href="http://alioth.debian.org/~nomadium-guest/debian/unstable/mongrel2_0.9.20100727-1_amd64.deb">binary</a></li>
+<li><a href="http://alioth.debian.org/~nomadium-guest/debian/unstable/mongrel2_0.9.20100727-1.dsc">source</a></li>
+<li><a href="http://git.debian.org/?p=collab-maint/mongrel2.git">git</a></li>
+<li><a href="http://mongrel2.org/wiki?name=GettingStarted">upstream</a></li>
+</ul></li>
+<li><p>python-storm (needed to use m2sh)</p>
+
+<ul>
+<li><a href="http://alioth.debian.org/~nomadium-guest/debian/unstable/storm_0.16.0-1_amd64.deb">binary</a></li>
+<li><a href="http://alioth.debian.org/~nomadium-guest/debian/unstable/storm_0.16.0-1.dsc">source</a></li>
+<li><a href="http://git.debian.org/?p=users/nomadium-guest/storm.git">git</a></li>
+<li><a href="https://storm.canonical.com/#Download">upstream</a></li>
+</ul></li>
+<li><p>python-zmq (needed to run the tests included with mongrel2)</p>
+
+<ul>
+<li><a href="http://alioth.debian.org/~nomadium-guest/debian/unstable/python-pyzmq-0.1.20100703+git18f5d06155-1_amd64.deb">binary</a></li>
+<li><a href="http://alioth.debian.org/~nomadium-guest/debian/unstable/pyzmq_0.1.20100703+git18f5d06155-1.dsc">source</a></li>
+<li><a href="http://git.debian.org/?p=users/nomadium-guest/pyzmq.git">git</a></li>
+<li><a href="http://github.com/zeromq/pyzmq">upstream</a></li>
+</ul></li>
+</ul>
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="relativedate" title="Fri, 30 Jul 2010 12:21:41 -0430">at lunch time on Friday, July 30th, 2010</span>
+<!-- Created <span class="relativedate" title="Fri, 30 Jul 2010 12:12:29 -0430">at noon on Friday, July 30th, 2010</span> -->
+</div>
+
+</div>
+
+
+<!-- from miguel.cc -->
+</div>
+
+</div>
+
+</body>
+</html>
