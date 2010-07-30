@@ -16,7 +16,7 @@
 	<link>http://miguel.cc//blog/entry/mongrel2_development/</link>
 
 	<pubDate>Fri, 30 Jul 2010 12:12:29 -0430</pubDate>
-	<dcterms:modified>2010-07-30T16:51:41Z</dcterms:modified>
+	<dcterms:modified>2010-07-30T19:31:40Z</dcterms:modified>
 
 	<description>&lt;p&gt;In my opinion you can learn a lot &lt;a href=&quot;http://twitter.com/zedshaw&quot;&gt;following the development process&lt;/a&gt;
 of &lt;a href=&quot;http://mongrel2.org/&quot;&gt;Mongrel2&lt;/a&gt;. Mongrel2 is a redesign of Mongrel web server and it
@@ -42,30 +42,15 @@ in Debian (or Ubuntu). I already asked for review to have those packages
 included officially in Debian.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;mongrel2&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/mongrel2_0.9.20100727-1_amd64.deb&quot;&gt;binary&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/mongrel2_0.9.20100727-1.dsc&quot;&gt;source&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://git.debian.org/?p=collab-maint/mongrel2.git&quot;&gt;git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://mongrel2.org/wiki?name=GettingStarted&quot;&gt;upstream&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;python-storm (needed to use m2sh)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/storm_0.16.0-1_amd64.deb&quot;&gt;binary&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/storm_0.16.0-1.dsc&quot;&gt;source&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://git.debian.org/?p=users/nomadium-guest/storm.git&quot;&gt;git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://storm.canonical.com/#Download&quot;&gt;upstream&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;python-zmq (needed to run the tests included with mongrel2)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/python-pyzmq-0.1.20100703+git18f5d06155-1_amd64.deb&quot;&gt;binary&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/pyzmq_0.1.20100703+git18f5d06155-1.dsc&quot;&gt;source&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://git.debian.org/?p=users/nomadium-guest/pyzmq.git&quot;&gt;git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://github.com/zeromq/pyzmq&quot;&gt;upstream&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;mongrel2:
+&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/mongrel2_0.9.20100730+fossil2037a497b7-1_amd64.deb&quot;&gt;binary&lt;/a&gt;, &lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/mongrel2_0.9.20100730+fossil2037a497b7-1.dsc&quot;&gt;source&lt;/a&gt;, &lt;a href=&quot;http://git.debian.org/?p=collab-maint/mongrel2.git&quot;&gt;git&lt;/a&gt;,
+&lt;a href=&quot;http://mongrel2.org/wiki?name=GettingStarted&quot;&gt;upstream&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;python-storm (needed to use m2sh):
+&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/python-storm_0.16.0-1_amd64.deb&quot;&gt;binary&lt;/a&gt;, &lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/storm_0.16.0-1.dsc&quot;&gt;source&lt;/a&gt;, &lt;a href=&quot;http://git.debian.org/?p=users/nomadium-guest/storm.git&quot;&gt;git&lt;/a&gt;,
+&lt;a href=&quot;https://storm.canonical.com/#Download&quot;&gt;upstream&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;python-zmq (needed to run the examples included with mongrel2):
+&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/python-pyzmq_0.1.20100703+git18f5d06155-1_amd64.deb&quot;&gt;binary&lt;/a&gt;, &lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/pyzmq_0.1.20100703+git18f5d06155-1.dsc&quot;&gt;source&lt;/a&gt;, &lt;a href=&quot;http://git.debian.org/?p=users/nomadium-guest/pyzmq.git&quot;&gt;git&lt;/a&gt;,
+&lt;a href=&quot;http://github.com/zeromq/pyzmq&quot;&gt;upstream&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
 

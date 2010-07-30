@@ -17,7 +17,7 @@
 
 <subtitle type="html">miguel.cc</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20100722">ikiwiki</generator>
-<updated>2010-07-30T16:51:41Z</updated>
+<updated>2010-07-30T19:31:40Z</updated>
 <entry>
 	<title>mongrel2 development</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2010-07-30T16:51:41Z</updated>
+	<updated>2010-07-30T19:31:40Z</updated>
 	<published>2010-07-30T16:42:29Z</published>
 
 	<content type="html" xml:lang="en">
@@ -57,30 +57,15 @@ in Debian (or Ubuntu). I already asked for review to have those packages
 included officially in Debian.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;mongrel2&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/mongrel2_0.9.20100727-1_amd64.deb&quot;&gt;binary&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/mongrel2_0.9.20100727-1.dsc&quot;&gt;source&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://git.debian.org/?p=collab-maint/mongrel2.git&quot;&gt;git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://mongrel2.org/wiki?name=GettingStarted&quot;&gt;upstream&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;python-storm (needed to use m2sh)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/storm_0.16.0-1_amd64.deb&quot;&gt;binary&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/storm_0.16.0-1.dsc&quot;&gt;source&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://git.debian.org/?p=users/nomadium-guest/storm.git&quot;&gt;git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://storm.canonical.com/#Download&quot;&gt;upstream&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;python-zmq (needed to run the tests included with mongrel2)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/python-pyzmq-0.1.20100703+git18f5d06155-1_amd64.deb&quot;&gt;binary&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/pyzmq_0.1.20100703+git18f5d06155-1.dsc&quot;&gt;source&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://git.debian.org/?p=users/nomadium-guest/pyzmq.git&quot;&gt;git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://github.com/zeromq/pyzmq&quot;&gt;upstream&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;mongrel2:
+&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/mongrel2_0.9.20100730+fossil2037a497b7-1_amd64.deb&quot;&gt;binary&lt;/a&gt;, &lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/mongrel2_0.9.20100730+fossil2037a497b7-1.dsc&quot;&gt;source&lt;/a&gt;, &lt;a href=&quot;http://git.debian.org/?p=collab-maint/mongrel2.git&quot;&gt;git&lt;/a&gt;,
+&lt;a href=&quot;http://mongrel2.org/wiki?name=GettingStarted&quot;&gt;upstream&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;python-storm (needed to use m2sh):
+&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/python-storm_0.16.0-1_amd64.deb&quot;&gt;binary&lt;/a&gt;, &lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/storm_0.16.0-1.dsc&quot;&gt;source&lt;/a&gt;, &lt;a href=&quot;http://git.debian.org/?p=users/nomadium-guest/storm.git&quot;&gt;git&lt;/a&gt;,
+&lt;a href=&quot;https://storm.canonical.com/#Download&quot;&gt;upstream&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;python-zmq (needed to run the examples included with mongrel2):
+&lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/python-pyzmq_0.1.20100703+git18f5d06155-1_amd64.deb&quot;&gt;binary&lt;/a&gt;, &lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/pyzmq_0.1.20100703+git18f5d06155-1.dsc&quot;&gt;source&lt;/a&gt;, &lt;a href=&quot;http://git.debian.org/?p=users/nomadium-guest/pyzmq.git&quot;&gt;git&lt;/a&gt;,
+&lt;a href=&quot;http://github.com/zeromq/pyzmq&quot;&gt;upstream&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 	</content>
