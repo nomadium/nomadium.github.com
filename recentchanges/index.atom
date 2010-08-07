@@ -16,8 +16,68 @@
 <id>http://miguel.cc//recentchanges/</id>
 
 <subtitle type="html">miguel.cc</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20100722">ikiwiki</generator>
-<updated>2010-07-30T19:36:18Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20100804">ikiwiki</generator>
+<updated>2010-07-30T23:10:55Z</updated>
+<entry>
+	<title>change to index on miguel.cc</title>
+
+	<id>http://miguel.cc//recentchanges/change_23c0f3ad241daba1454c68d89060423086afbad2/</id>
+
+	<link href="http://miguel.cc//recentchanges/#change-23c0f3ad241daba1454c68d89060423086afbad2"/>
+
+	<author><name>miguel</name></author>
+
+
+
+
+
+	<updated>2010-07-30T23:10:55Z</updated>
+	<published>2010-07-30T23:10:55Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;metadata&quot; id=&quot;change-23c0f3ad241daba1454c68d89060423086afbad2&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=index&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Fri, 30 Jul 2010 18:40:55 -0430&quot;&gt;Friday evening 07/30/10&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+enable blog&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to blog/entry/mongrel2_development on miguel.cc</title>
 
