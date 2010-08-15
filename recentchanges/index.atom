@@ -17,7 +17,67 @@
 
 <subtitle type="html">miguel.cc</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20100804">ikiwiki</generator>
-<updated>2010-07-30T23:10:55Z</updated>
+<updated>2010-08-15T04:20:59Z</updated>
+<entry>
+	<title>change to index on miguel.cc</title>
+
+	<id>http://miguel.cc//recentchanges/change_fb75ecd3844b264669dcef0a00e3f6fb2e857a8f/</id>
+
+	<link href="http://miguel.cc//recentchanges/#change-fb75ecd3844b264669dcef0a00e3f6fb2e857a8f"/>
+
+	<author><name>miguel</name></author>
+
+
+
+
+
+	<updated>2010-08-15T04:20:59Z</updated>
+	<published>2010-08-15T04:20:59Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;metadata&quot; id=&quot;change-fb75ecd3844b264669dcef0a00e3f6fb2e857a8f&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=index&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sat, 14 Aug 2010 23:50:59 -0430&quot;&gt;Saturday night 08/14/10&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+add flavors.me link&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to index on miguel.cc</title>
 
