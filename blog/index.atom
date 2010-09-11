@@ -16,7 +16,7 @@
 <id>http://miguel.cc//blog/</id>
 
 <subtitle type="html">miguel.cc</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20100804">ikiwiki</generator>
+<generator uri="http://ikiwiki.info/" version="3.20100831">ikiwiki</generator>
 <updated>2010-07-30T19:31:40Z</updated>
 <entry>
 	<title>mongrel2 development</title>
