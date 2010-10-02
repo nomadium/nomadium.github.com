@@ -16,7 +16,7 @@
 <id>http://miguel.cc//recentchanges/</id>
 
 <subtitle type="html">miguel.cc</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20100831">ikiwiki</generator>
+<generator uri="http://ikiwiki.info/" version="3.20100926">ikiwiki</generator>
 <updated>2010-08-15T04:20:59Z</updated>
 <entry>
 	<title>change to index on miguel.cc</title>
@@ -40,14 +40,14 @@
 &lt;span class=&quot;pagelinks&quot;&gt;
 
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=index&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=index&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
 
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
 &lt;span class=&quot;committer&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
@@ -100,14 +100,14 @@ add flavors.me link&lt;br /&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=index&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=index&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
 
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
 &lt;span class=&quot;committer&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
@@ -160,14 +160,14 @@ enable blog&lt;br /&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Fmongrel2_development&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog/entry/mongrel2 development&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Fmongrel2_development&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog/entry/mongrel2 development&lt;/a&gt;
 
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
 &lt;span class=&quot;committer&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
@@ -220,14 +220,14 @@ blog update&lt;br /&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Fikiwiki_and_github_pages_equals_epic_win&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog/entry/ikiwiki and github pages equals epic win&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Fikiwiki_and_github_pages_equals_epic_win&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog/entry/ikiwiki and github pages equals epic win&lt;/a&gt;
 
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
 &lt;span class=&quot;committer&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
@@ -280,14 +280,14 @@ blog update&lt;br /&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=CNAME&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;CNAME&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=CNAME&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;CNAME&lt;/a&gt;
 
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
 &lt;span class=&quot;committer&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
@@ -340,14 +340,14 @@ enable github pages CNAME feature for miguel.cc&lt;br /&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=CNAME&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;CNAME&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=CNAME&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;CNAME&lt;/a&gt;
 
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
 &lt;span class=&quot;committer&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
@@ -400,18 +400,18 @@ test github pages CNAME feature for nomadium.org&lt;br /&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog&lt;/a&gt;
 
 
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Fyour_own_kernel_with_amazon_ec2&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog/entry/your own kernel with amazon ec2&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Fyour_own_kernel_with_amazon_ec2&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog/entry/your own kernel with amazon ec2&lt;/a&gt;
 
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
 &lt;span class=&quot;committer&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
@@ -464,30 +464,30 @@ Look ma, I&amp;#39;m blogging&lt;br /&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=.gitignore&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;.gitignore&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=.gitignore&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;.gitignore&lt;/a&gt;
 
 
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=code&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;code&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=code&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;code&lt;/a&gt;
 
 
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=contact&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;contact&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=contact&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;contact&lt;/a&gt;
 
 
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=grep&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;grep&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=grep&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;grep&lt;/a&gt;
 
 
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=index&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=index&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
 
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
 &lt;span class=&quot;committer&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
@@ -540,14 +540,14 @@ add new pages: index, code, contact and grep&lt;br /&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=.gitignore&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;.gitignore&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=.gitignore&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;.gitignore&lt;/a&gt;
 
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
 &lt;span class=&quot;committer&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;#38;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;

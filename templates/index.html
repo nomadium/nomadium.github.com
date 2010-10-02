@@ -78,18 +78,18 @@ you can fully customise this site.</p>
 <p>Templates are located in <code>/usr/share/ikiwiki/templates</code> by default;
 the <code>templatedir</code> setting can be used to make another directory be
 searched first. Customised templates can also be placed inside the
-&#34;templates/&#34; directory in your wiki&#39;s source.</p>
+&quot;templates/&quot; directory in your wiki&#39;s source.</p>
 
 <p>Ikiwiki uses the HTML::Template module as its template engine. This
 supports things like conditionals and loops in templates and is pretty
 easy to learn. All you really need to know to modify templates is this:</p>
 
 <ul>
-<li>To insert the value of a template variable, use <code>&#60;TMPL_VAR variable&#62;</code>.</li>
+<li>To insert the value of a template variable, use <code>&lt;TMPL_VAR variable&gt;</code>.</li>
 <li>To make a block of text conditional on a variable being set use
-<code>&#60;TMPL_IF variable&#62;text&#60;/TMPL_IF&#62;</code>.</li>
+<code>&lt;TMPL_IF variable&gt;text&lt;/TMPL_IF&gt;</code>.</li>
 <li>To use one block of text if a variable is set and a second if it&#39;s not,
-use <code>&#60;TMPL_IF variable&#62;text&#60;TMPL_ELSE&#62;other text&#60;/TMPL_IF&#62;</code></li>
+use <code>&lt;TMPL_IF variable&gt;text&lt;TMPL_ELSE&gt;other text&lt;/TMPL_IF&gt;</code></li>
 </ul>
 
 <h2>template pages</h2>

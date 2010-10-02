@@ -94,21 +94,21 @@ used:</p>
 additional tests:</p>
 
 <ul>
-<li><p>&#34;<code>maxsize(size)</code>&#34; - tests whether the attachment is no larger than the
-specified size. The size defaults to being in bytes, but &#34;kb&#34;, &#34;mb&#34;, &#34;gb&#34;
+<li><p>&quot;<code>maxsize(size)</code>&quot; - tests whether the attachment is no larger than the
+specified size. The size defaults to being in bytes, but &quot;kb&quot;, &quot;mb&quot;, &quot;gb&quot;
 etc can be used to specify the units.</p></li>
-<li><p>&#34;<code>minsize(size)</code>&#34; - tests whether the attachment is no smaller than the
+<li><p>&quot;<code>minsize(size)</code>&quot; - tests whether the attachment is no smaller than the
 specified size.</p></li>
-<li><p>&#34;<code>ispage()</code>&#34; - tests whether the attachment will be treated by ikiwiki as a
-wiki page. (Ie, if it has an extension of &#34;.mdwn&#34;, or of any other enabled
+<li><p>&quot;<code>ispage()</code>&quot; - tests whether the attachment will be treated by ikiwiki as a
+wiki page. (Ie, if it has an extension of &quot;.mdwn&quot;, or of any other enabled
 page format).</p>
 
 <p>So, if you don&#39;t want to allow wiki pages to be uploaded as attachments,
 use <code>!ispage()</code> ; if you only want to allow wiki pages to be uploaded
 as attachments, use <code>ispage()</code>.</p></li>
-<li><p>&#34;<code>mimetype(foo/bar)</code>&#34; - checks the MIME type of the attachment. You can
+<li><p>&quot;<code>mimetype(foo/bar)</code>&quot; - checks the MIME type of the attachment. You can
 include a glob in the type, for example <code>mimetype(image/*)</code>.</p></li>
-<li><p>&#34;<code>virusfree()</code>&#34; - checks the attachment with an antiviral program.</p></li>
+<li><p>&quot;<code>virusfree()</code>&quot; - checks the attachment with an antiviral program.</p></li>
 </ul>
 
 </div>
