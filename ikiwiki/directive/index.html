@@ -12,11 +12,12 @@
 <link rel="stylesheet" href="../../local.css" type="text/css" />
 
 
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="http://miguel.cc/ikiwiki.cgi?page=ikiwiki%2Fdirective&amp;do=edit" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/ikiwiki.cgi?page=ikiwiki%2Fdirective&amp;do=edit" />
 
 
 
 <meta name="robots" content="noindex, follow" />
+
 </head>
 <body><script src="../ikiwiki.js" type="text/javascript" charset="utf-8"></script>
 <script src="../relativedate.js" type="text/javascript" charset="utf-8"></script>
@@ -45,7 +46,7 @@ directive
 <div class="actions">
 <ul>
 
-<li><a href="http://miguel.cc/ikiwiki.cgi?page=ikiwiki%2Fdirective&amp;do=edit" rel="nofollow">Edit</a></li>
+<li><a href="/ikiwiki.cgi?page=ikiwiki%2Fdirective&amp;do=edit" rel="nofollow">Edit</a></li>
 
 
 <li><a href="../../recentchanges/">RecentChanges</a></li>
@@ -53,16 +54,18 @@ directive
 
 
 
-<li><a href="http://miguel.cc/ikiwiki.cgi?do=prefs">Preferences</a></li>
+<li><a href="/ikiwiki.cgi?do=prefs">Preferences</a></li>
 
 
 
 
-<li><span class="createlink"><a href="http://miguel.cc/ikiwiki.cgi?page=discussion&amp;from=ikiwiki%2Fdirective&amp;do=create" rel="nofollow">?</a>Discussion</span></li>
+<li><span class="createlink"><a href="/ikiwiki.cgi?page=Discussion&amp;from=ikiwiki%2Fdirective&amp;do=create" rel="nofollow">?</a>Discussion</span></li>
 
 
 </ul>
 </div>
+
+
 
 
 
@@ -77,7 +80,7 @@ directive
 <p>Directives are similar to a <a href="../wikilink/">WikiLink</a> in form, except they
 begin with <code>!</code> and may contain parameters. The general form is:</p>
 
-<pre><code>[[!directive  param=&quot;value&quot; param=&quot;value&quot;]]
+<pre><code>[[!directive  param="value" param="value"]]
 </code></pre>
 
 <p>This gets expanded before the rest of the page is processed, and can be used
@@ -92,19 +95,33 @@ Also, some directives may use parameters without values, for example:</p>
 <p>A directive does not need to all be on one line, it can be
 wrapped to multiple lines if you like:</p>
 
-<pre><code>[[!directive  foo=&quot;baldersnatch&quot;
-bar=&quot;supercalifragilisticexpialidocious&quot; baz=11]]
+<pre><code>[[!directive  foo="baldersnatch"
+bar="supercalifragilisticexpialidocious" baz=11]]
 </code></pre>
 
 <p>Also, multiple lines of <em>quoted</em> text can be used for a value.
 To allow quote marks inside the quoted text, delimit the block
-of text with triple-quotes:</p>
+of text with triple-double-quotes or triple-single-quotes:</p>
 
-<pre><code>[[!directive  text=&quot;&quot;&quot;
-1. &quot;foo&quot;
-2. &quot;bar&quot;
-3. &quot;baz&quot;
-&quot;&quot;&quot;]]
+<pre><code>[[!directive  text="""
+1. "foo"
+2. "bar"
+3. "baz"
+""" othertext='''
+1. 'quux'
+2. "foo"
+''']]
+</code></pre>
+
+<p>If you want to put text with triple quotes into a parameter value, you can
+use perl-style here-doc syntax, even nesting it like this:</p>
+
+<pre><code>[[!directive  text=&lt;&lt;OUTER
+[[!otherdirective &lt;&lt;INNER
+inner text
+INNER]]
+outer text
+OUTER]]
 </code></pre>
 
 <p>ikiwiki also has an older syntax for directives, which requires a space in
@@ -126,6 +143,8 @@ the older syntax, if the <code>prefix_directives</code> option is disabled.</p>
 <div id="footer" class="pagefooter">
 
 <div id="pageinfo">
+
+
 
 
 
@@ -152,8 +171,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="relativedate" title="Tue, 23 Dec 2008 16:59:31 -0430">Tuesday afternoon, December 23rd, 2008</span>
-<!-- Created <span class="relativedate" title="Tue, 23 Dec 2008 16:59:31 -0430">Tuesday afternoon, December 23rd, 2008</span> -->
+Last edited <span class="relativedate" title="Fri, 13 May 2011 13:06:00 -0300">Fri 13 May 2011 01:06:00 PM ART</span>
+<!-- Created <span class="relativedate" title="Fri, 13 May 2011 13:06:00 -0300">Fri 13 May 2011 01:06:00 PM ART</span> -->
 </div>
 
 </div>

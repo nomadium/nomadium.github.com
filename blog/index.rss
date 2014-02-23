@@ -8,15 +8,85 @@
 <description>miguel.cc</description>
 <item>
 
+	<title>nomadium APT repository</title>
+
+
+	<guid isPermaLink="false">http://miguel.cc//blog/entry/nomadium_apt_repo/</guid>
+
+	<link>http://miguel.cc//blog/entry/nomadium_apt_repo/</link>
+
+	<pubDate>Sun, 23 Feb 2014 15:33:41 -0300</pubDate>
+	<dcterms:modified>2014-02-23T18:33:41Z</dcterms:modified>
+
+	<description>&lt;p&gt;Well, the reason why I revived this blog (again) was because I wanted
+to document the fact I setup what I expect to be an stable APT repo
+for packages prepared by myself but not ready to be included in Debian
+for whatever reason at the moment.&lt;/p&gt;
+
+&lt;p&gt;It&#39;s available at:
+&lt;a href=&quot;http://people.debian.org/~nomadium/apt/&quot;&gt;http://people.debian.org/~nomadium/apt/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Right now I&#39;m working in some projects and I&#39;m using some software
+that is outdated, just not available on Debian stable suite or
+on stable backports, e.g.:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;chef (&amp;gt;= 11.8)&lt;/li&gt;
+&lt;li&gt;docker.io&lt;/li&gt;
+&lt;li&gt;mosh&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;So, I decided to backport and upload those packages (and their
+dependencies) there. Maybe somebody else can find uses for that
+until they are included in the next stable release.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>life: 2010-2014</title>
+
+
+	<guid isPermaLink="false">http://miguel.cc//blog/entry/life_2010_2014/</guid>
+
+	<link>http://miguel.cc//blog/entry/life_2010_2014/</link>
+
+	<pubDate>Sun, 23 Feb 2014 15:11:11 -0300</pubDate>
+	<dcterms:modified>2014-02-23T18:33:03Z</dcterms:modified>
+
+	<description>&lt;p&gt;Wow, it looks like the last time I blogged something here was like 3 years
+and 7 months or so.&lt;/p&gt;
+
+&lt;p&gt;In that period many things had changed but the most relevant event were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;I don&#39;t live anymore in Venezuela.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I became a Debian Developer.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Another important things happened on my personal life but they don&#39;t belong
+on this blog anyway.&lt;/p&gt;
+
+&lt;p&gt;It feels good to write something again even if it&#39;s absolutely irrelevant
+in the great scheme of things.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>mongrel2 development</title>
 
 
-	<guid isPermaLink="no">http://miguel.cc//blog/entry/mongrel2_development/</guid>
+	<guid isPermaLink="false">http://miguel.cc//blog/entry/mongrel2_development/</guid>
 
 	<link>http://miguel.cc//blog/entry/mongrel2_development/</link>
 
-	<pubDate>Fri, 30 Jul 2010 12:12:29 -0430</pubDate>
-	<dcterms:modified>2010-07-30T19:31:40Z</dcterms:modified>
+	<pubDate>Fri, 30 Jul 2010 16:36:18 -0300</pubDate>
+	<dcterms:modified>2010-07-30T19:36:18Z</dcterms:modified>
 
 	<description>&lt;p&gt;In my opinion you can learn a lot &lt;a href=&quot;http://twitter.com/zedshaw&quot;&gt;following the development process&lt;/a&gt;
 of &lt;a href=&quot;http://mongrel2.org/&quot;&gt;Mongrel2&lt;/a&gt;. Mongrel2 is a redesign of Mongrel web server and it
@@ -29,11 +99,11 @@ ideas, it is written in C (&lt;a href=&quot;http://mongrel2.org/artifact?name=02
 me), the development process is totally in the open, and this could benefit
 many people if successfully achieve its goal.&lt;/p&gt;
 
-&lt;p&gt;Because of that, and because of the very big bold goal of this project I&amp;#39;m
-following its progress, I&amp;#39;m testing it and I plan to contribute with Mongrel2
-if possible. By now, I&amp;#39;m only contributing from the distribution side of
+&lt;p&gt;Because of that, and because of the very big bold goal of this project I&#39;m
+following its progress, I&#39;m testing it and I plan to contribute with Mongrel2
+if possible. By now, I&#39;m only contributing from the distribution side of
 things, so I prepared some packages necessary to test Mongrel2 in Debian
-(despite Mr. Zed Shaw is very critic of the ``slowness&amp;#39;&amp;#39; of Linux distributions
+(despite Mr. Zed Shaw is very critic of the ``slowness&#39;&#39; of Linux distributions
 picking new software).&lt;/p&gt;
 
 &lt;p&gt;Anyway, below are some links to binary and source packages for Mongrel2 and a
@@ -52,6 +122,7 @@ included officially in Debian.&lt;/p&gt;
 &lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/python-pyzmq_0.1.20100703+git18f5d06155-1_amd64.deb&quot;&gt;binary&lt;/a&gt;, &lt;a href=&quot;http://alioth.debian.org/~nomadium-guest/debian/unstable/pyzmq_0.1.20100703+git18f5d06155-1.dsc&quot;&gt;source&lt;/a&gt;, &lt;a href=&quot;http://git.debian.org/?p=users/nomadium-guest/pyzmq.git&quot;&gt;git&lt;/a&gt;,
 &lt;a href=&quot;http://github.com/zeromq/pyzmq&quot;&gt;upstream&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
 
 
@@ -61,19 +132,19 @@ included officially in Debian.&lt;/p&gt;
 	<title>ikiwiki + github pages = EPIC win!</title>
 
 
-	<guid isPermaLink="no">http://miguel.cc//blog/entry/ikiwiki_and_github_pages_equals_epic_win/</guid>
+	<guid isPermaLink="false">http://miguel.cc//blog/entry/ikiwiki_and_github_pages_equals_epic_win/</guid>
 
 	<link>http://miguel.cc//blog/entry/ikiwiki_and_github_pages_equals_epic_win/</link>
 
-	<pubDate>Mon, 26 Jul 2010 18:41:32 -0430</pubDate>
-	<dcterms:modified>2010-07-26T23:11:32Z</dcterms:modified>
+	<pubDate>Mon, 26 Jul 2010 20:30:15 -0300</pubDate>
+	<dcterms:modified>2010-07-26T23:30:15Z</dcterms:modified>
 
 	<description>&lt;p&gt;Since a while ago I was aware of the possibility of hosting an ikiwiki
 generated website at github using &lt;a href=&quot;http://pages.github.com/&quot;&gt;github pages&lt;/a&gt;.
 This is described with great detail on &lt;a href=&quot;http://ikiwiki.info/tips/github/&quot;&gt;tips section of ikiwiki website&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Later, it was &lt;a href=&quot;http://github.com/blog/315-cname-support-for-github-pages&quot;&gt;announced the possibility of using custom domains&lt;/a&gt; with github pages, but unfortunately this feature was
-available only to paying customers. Don&amp;#39;t get me wrong, github is fantastic
+available only to paying customers. Don&#39;t get me wrong, github is fantastic
 and they provide a service really worth paying for (especially for private
 projects), but for a &lt;a href=&quot;http://en.wikipedia.org/wiki/CADIVI&quot;&gt;dollar starved guy like me&lt;/a&gt;, I try to
 avoid any expense in foreign currency.&lt;/p&gt;
@@ -84,7 +155,7 @@ I could save a few bucks with hosting and gained the feature of updating my
 website using git standard tools (pretty awesome and convenient if you ask me,
 with one push you can publish updates or revert changes).&lt;/p&gt;
 
-&lt;p&gt;I&amp;#39;m going to investigate options about how to implement the dynamic portion of
+&lt;p&gt;I&#39;m going to investigate options about how to implement the dynamic portion of
 ikiwiki (ikiwiki.cgi, and maybe comments), but for now my main use case of
 ikiwiki is covered with github pages provided hosting.&lt;/p&gt;
 </description>
@@ -96,7 +167,7 @@ ikiwiki is covered with github pages provided hosting.&lt;/p&gt;
 	<title>your own kernel with amazon ec2</title>
 
 
-	<guid isPermaLink="no">http://miguel.cc//blog/entry/your_own_kernel_with_amazon_ec2/</guid>
+	<guid isPermaLink="false">http://miguel.cc//blog/entry/your_own_kernel_with_amazon_ec2/</guid>
 
 	<link>http://miguel.cc//blog/entry/your_own_kernel_with_amazon_ec2/</link>
 
@@ -104,7 +175,7 @@ ikiwiki is covered with github pages provided hosting.&lt;/p&gt;
 	<category>debian</category>
 
 
-	<pubDate>Mon, 19 Jul 2010 23:07:34 -0430</pubDate>
+	<pubDate>Tue, 20 Jul 2010 00:37:34 -0300</pubDate>
 	<dcterms:modified>2010-07-20T03:37:34Z</dcterms:modified>
 
 	<description>&lt;p&gt;Recently,
@@ -130,9 +201,10 @@ included with upcoming Debian 6.0 (squeeze, right now at testing stage).&lt;/p&g
 installed.&lt;/li&gt;
 &lt;/ul&gt;
 
+
 &lt;p&gt;In the &lt;a href=&quot;http://wiki.debian.org/Xen&quot;&gt;Xen entry&lt;/a&gt; at Debian wiki is mentioned that
 domU instances can boot with a Linux image Xen flavor, but I could not boot
-&lt;code&gt;linux-image-2.6.32-5-xen-686&lt;/code&gt; in Amazon EC2. I&amp;#39;ll investigate why that&amp;#39;s
+&lt;code&gt;linux-image-2.6.32-5-xen-686&lt;/code&gt; in Amazon EC2. I&#39;ll investigate why that&#39;s
 happening.&lt;/p&gt;
 </description>
 

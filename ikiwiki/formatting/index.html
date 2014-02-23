@@ -12,11 +12,12 @@
 <link rel="stylesheet" href="../../local.css" type="text/css" />
 
 
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="http://miguel.cc/ikiwiki.cgi?page=ikiwiki%2Fformatting&amp;do=edit" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/ikiwiki.cgi?page=ikiwiki%2Fformatting&amp;do=edit" />
 
 
 
 <meta name="robots" content="noindex, follow" />
+
 </head>
 <body><script src="../ikiwiki.js" type="text/javascript" charset="utf-8"></script>
 <script src="../relativedate.js" type="text/javascript" charset="utf-8"></script>
@@ -45,7 +46,7 @@ Formatting wiki pages
 <div class="actions">
 <ul>
 
-<li><a href="http://miguel.cc/ikiwiki.cgi?page=ikiwiki%2Fformatting&amp;do=edit" rel="nofollow">Edit</a></li>
+<li><a href="/ikiwiki.cgi?page=ikiwiki%2Fformatting&amp;do=edit" rel="nofollow">Edit</a></li>
 
 
 <li><a href="../../recentchanges/">RecentChanges</a></li>
@@ -53,16 +54,18 @@ Formatting wiki pages
 
 
 
-<li><a href="http://miguel.cc/ikiwiki.cgi?do=prefs">Preferences</a></li>
+<li><a href="/ikiwiki.cgi?do=prefs">Preferences</a></li>
 
 
 
 
-<li><span class="createlink"><a href="http://miguel.cc/ikiwiki.cgi?page=discussion&amp;from=ikiwiki%2Fformatting&amp;do=create" rel="nofollow">?</a>Discussion</span></li>
+<li><span class="createlink"><a href="/ikiwiki.cgi?page=Discussion&amp;from=ikiwiki%2Fformatting&amp;do=create" rel="nofollow">?</a>Discussion</span></li>
 
 
 </ul>
 </div>
+
+
 
 
 
@@ -86,18 +89,20 @@ in single or double asterisks.</p>
 <p>To create a list, start each line with an asterisk:</p>
 
 <ul>
-<li>&quot;* this is my list&quot;</li>
-<li>&quot;* another item&quot;</li>
+<li>"* this is my list"</li>
+<li>"* another item"</li>
 </ul>
+
 
 <p>To make a numbered list, start each line with a number (any number will
 do) followed by a period:</p>
 
 <ol>
-<li>&quot;1. first line&quot;</li>
-<li>&quot;2. second line&quot;</li>
-<li>&quot;2. third line&quot;</li>
+<li>"1. first line"</li>
+<li>"2. second line"</li>
+<li>"2. third line"</li>
 </ol>
+
 
 <p>To create a header, start a line with one or more <code>#</code> characters followed
 by a space and the header text. The number of <code>#</code> characters controls the
@@ -120,16 +125,14 @@ their own line:</p>
 
 <hr />
 
-<p>To quote someone, prefix the quote with &quot;&gt;&quot;:</p>
+<p>To quote someone, prefix the quote with "&gt;":</p>
 
-<blockquote>
-  <p>To be or not to be,
-  that is the question.</p>
-</blockquote>
+<blockquote><p>To be or not to be,
+that is the question.</p></blockquote>
 
 <p>To write a code block, indent each line with a tab or 4 spaces:</p>
 
-<pre><code>10 PRINT &quot;Hello, world!&quot;
+<pre><code>10 PRINT "Hello, world!"
 20 GOTO 10
 </code></pre>
 
@@ -143,12 +146,12 @@ form [link text](url)</p>
 you use the following additional features:</p>
 
 <ul>
-<li><p>To link to another page on the wiki, place the page&#39;s name inside double
+<li><p>To link to another page on the wiki, place the page's name inside double
 square brackets. So you would use <code>[[WikiLink]]</code> to link to <a href="../wikilink/">WikiLink</a>.</p></li>
-<li><p>Insert <a href="../../smileys/">smileys</a> and some other useful symbols. <img alt=":-)" src="../../smileys/smile.png" /></p></li>
+<li><p>Insert <a href="../../smileys/">smileys</a> and some other useful symbols. <img src="../../smileys/smile.png" alt=":-)" /></p></li>
 <li><p>Use <a href="../../shortcuts/">shortcuts</a> to link to common resources.</p>
 
-<p>[[!wikipedia  War_of_1812]]</p></li>
+<p>  [[!wikipedia  War_of_1812]]</p></li>
 <li><p>Create and fill out <a href="../../templates/">templates</a> for repeated chunks of
 parameterized wiki text.</p></li>
 <li><p>Insert various <a href="../directive/">directives</a> onto a page to perform useful
@@ -156,23 +159,19 @@ actions.
 For example, you can:</p>
 
 <ul>
-<li>Add a table of contents to a page:</li>
+<li><p>Add a table of contents to a page:</p>
+
+<p>[[!toc ]]</p></li>
+<li><p>Change the title of a page:</p>
+
+<p>[[!meta  title="full page title"]]</p></li>
+<li><p>Create a blog by inlining a set of pages:</p>
+
+<p>[[!inline  pages="blog/*"]]</p></li>
+</ul>
+</li>
 </ul>
 
-<p>[[!toc ]]</p>
-
-<ul>
-<li>Change the title of a page:</li>
-</ul>
-
-<p>[[!meta  title=&quot;full page title&quot;]]</p>
-
-<ul>
-<li>Create a blog by inlining a set of pages:</li>
-</ul>
-
-<p>[[!inline  pages=&quot;blog/*&quot;]]</p></li>
-</ul>
 
 </div>
 
@@ -185,6 +184,8 @@ For example, you can:</p>
 <div id="footer" class="pagefooter">
 
 <div id="pageinfo">
+
+
 
 
 
@@ -205,8 +206,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="relativedate" title="Wed, 26 Aug 2009 12:35:29 -0430">at lunch time on Wednesday, August 26th, 2009</span>
-<!-- Created <span class="relativedate" title="Wed, 26 Aug 2009 12:35:29 -0430">at lunch time on Wednesday, August 26th, 2009</span> -->
+Last edited <span class="relativedate" title="Wed, 26 Aug 2009 14:05:29 -0300">Wed 26 Aug 2009 02:05:29 PM ART</span>
+<!-- Created <span class="relativedate" title="Wed, 26 Aug 2009 14:05:29 -0300">Wed 26 Aug 2009 02:05:29 PM ART</span> -->
 </div>
 
 </div>
