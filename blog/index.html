@@ -12,9 +12,13 @@
 <link rel="stylesheet" href="../local.css" type="text/css" />
 
 
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/ikiwiki.cgi?page=blog&amp;do=edit" />
+
+
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/ikiwiki.cgi?do=edit&amp;page=blog" />
 
 <link rel="alternate" type="application/rss+xml" title="miguel.cc (RSS feed)" href="index.rss" /><link rel="alternate" type="application/atom+xml" title="miguel.cc (Atom feed)" href="index.atom" />
+
+
 
 
 
@@ -38,13 +42,15 @@ blog
 </span>
 </span>
 
+
+
 </div>
 
 
 <div class="actions">
 <ul>
 
-<li><a href="/ikiwiki.cgi?page=blog&amp;do=edit" rel="nofollow">Edit</a></li>
+<li><a href="/ikiwiki.cgi?do=edit&amp;page=blog" rel="nofollow">Edit</a></li>
 
 
 <li><a href="../recentchanges/">RecentChanges</a></li>
@@ -57,8 +63,6 @@ blog
 
 
 
-<li><span class="createlink"><a href="/ikiwiki.cgi?page=Discussion&amp;from=blog&amp;do=create" rel="nofollow">?</a>Discussion</span></li>
-
 
 </ul>
 </div>
@@ -68,7 +72,12 @@ blog
 
 
 
+
+
+
 </div>
+
+
 
 
 
@@ -89,43 +98,48 @@ blog
 
 <span class="header">
 
-<a href="./entry/nomadium_apt_repo/">nomadium APT repository</a>
+<a href="./entry/free_hosted_chef_server/">Free Chef server hosted at api.qirtaiba.org</a>
 
 </span>
 </div>
 
 <div class="inlinecontent">
-<p>Well, the reason why I revived this blog (again) was because I wanted
-to document the fact I setup what I expect to be an stable APT repo
-for packages prepared by myself but not ready to be included in Debian
-for whatever reason at the moment.</p>
+<p>Since months ago I was pondering over providing an alternative <a href="https://www.chef.io/">Chef</a>
+hosted service.</p>
 
-<p>It's available at:
-<a href="http://people.debian.org/~nomadium/apt/">http://people.debian.org/~nomadium/apt/</a>.</p>
+<p>The timing of the <a href="https://www.chef.io/blog/2014/09/08/chef-releases-chef-12-to-power-devops-practices-in-the-enterprise/">recent announcement by Chef, Inc.</a> converging
+and releasing a single code base under Apache 2.0 license for Chef server
+certainly makes this initiative even more interesting for me.</p>
 
-<p>Right now I'm working in some projects and I'm using some software
-that is outdated, just not available on Debian stable suite or
-on stable backports, e.g.:</p>
+<p>So, I wanted to see if there is interest in such thing and I went ahead to
+setup this service.</p>
 
-<ul>
-<li>chef (&gt;= 11.8)</li>
-<li>docker.io</li>
-<li>mosh</li>
-</ul>
+<p>The service is free to use and is available at <a href="https://api.qirtaiba.org/">api.qirtaiba.org</a>.</p>
 
+<p>The service is beta but you are more than invited to use it.</p>
 
-<p>So, I decided to backport and upload those packages (and their
-dependencies) there. Maybe somebody else can find uses for that
-until they are included in the next stable release.</p>
+<p>I look forward to hear comments and see what the people think about it.
+You can <a href="mailto:miguel@miguel.cc">drop me a line</a> or a <a href="https://twitter.com/nomadium">tweet</a> if you wish.</p>
+
+<p>Let's hack and automate.</p>
 
 </div>
+
+
 
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="relativedate" title="Sun, 23 Feb 2014 15:33:41 -0300">Sun 23 Feb 2014 03:33:41 PM ART</span>
+Posted <span class="relativedate" title="Tue, 09 Dec 2014 11:29:26 -0300">Tue Dec  9 11:29:26 2014</span>
 </span>
 
+
+<span class="tags">
+Tags:
+
+<a href="../tags/chef/" rel="tag">chef</a>
+
+</span>
 
 
 
@@ -136,11 +150,9 @@ Posted <span class="relativedate" title="Sun, 23 Feb 2014 15:33:41 -0300">Sun 23
 <div class="actions">
 <ul>
 
-<li><a href="/ikiwiki.cgi?page=blog%2Fentry%2Fnomadium_apt_repo&amp;do=edit" rel="nofollow">Edit</a></li>
+<li><a href="/ikiwiki.cgi?page=blog%2Fentry%2Ffree_hosted_chef_server&amp;do=edit" rel="nofollow">Edit</a></li>
 
 
-
-<li><span class="createlink"><a href="/ikiwiki.cgi?page=Discussion&amp;from=blog%2Fentry%2Fnomadium_apt_repo&amp;do=create" rel="nofollow">?</a>Discussion</span></li>
 
 
 </ul>
@@ -181,10 +193,12 @@ in the great scheme of things.</p>
 
 </div>
 
+
+
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="relativedate" title="Sun, 23 Feb 2014 15:11:11 -0300">Sun 23 Feb 2014 03:11:11 PM ART</span>
+Posted <span class="relativedate" title="Sun, 23 Feb 2014 15:37:17 -0300">Sun Feb 23 15:37:17 2014</span>
 </span>
 
 
@@ -201,7 +215,72 @@ Posted <span class="relativedate" title="Sun, 23 Feb 2014 15:11:11 -0300">Sun 23
 
 
 
-<li><span class="createlink"><a href="/ikiwiki.cgi?page=Discussion&amp;from=blog%2Fentry%2Flife_2010_2014&amp;do=create" rel="nofollow">?</a>Discussion</span></li>
+
+</ul>
+</div>
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="header">
+
+<a href="./entry/nomadium_apt_repo/">nomadium APT repository</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<p>Well, the reason why I revived this blog (again) was because I wanted
+to document the fact I setup what I expect to be an stable APT repo
+for packages prepared by myself but not ready to be included in Debian
+for whatever reason at the moment.</p>
+
+<p>It's available at:
+<a href="http://people.debian.org/~nomadium/apt/">http://people.debian.org/~nomadium/apt/</a>.</p>
+
+<p>Right now I'm working in some projects and I'm using some software
+that is outdated, just not available on Debian stable suite or
+on stable backports, e.g.:</p>
+
+<ul>
+<li>chef (&gt;= 11.8)</li>
+<li>docker.io</li>
+<li>mosh</li>
+</ul>
+
+
+<p>So, I decided to backport and upload those packages (and their
+dependencies) there. Maybe somebody else can find uses for that
+until they are included in the next stable release.</p>
+
+</div>
+
+
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Sun, 23 Feb 2014 15:37:17 -0300">Sun Feb 23 15:37:17 2014</span>
+</span>
+
+
+
+
+
+
+
+
+<div class="actions">
+<ul>
+
+<li><a href="/ikiwiki.cgi?do=edit&amp;page=blog%2Fentry%2Fnomadium_apt_repo" rel="nofollow">Edit</a></li>
+
+
 
 
 </ul>
@@ -261,10 +340,12 @@ included officially in Debian.</p>
 
 </div>
 
+
+
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="relativedate" title="Fri, 30 Jul 2010 16:36:18 -0300">Fri 30 Jul 2010 04:36:18 PM ART</span>
+Posted <span class="relativedate" title="Fri, 30 Jul 2010 16:36:18 -0300">Fri Jul 30 16:36:18 2010</span>
 </span>
 
 
@@ -277,11 +358,9 @@ Posted <span class="relativedate" title="Fri, 30 Jul 2010 16:36:18 -0300">Fri 30
 <div class="actions">
 <ul>
 
-<li><a href="/ikiwiki.cgi?page=blog%2Fentry%2Fmongrel2_development&amp;do=edit" rel="nofollow">Edit</a></li>
+<li><a href="/ikiwiki.cgi?do=edit&amp;page=blog%2Fentry%2Fmongrel2_development" rel="nofollow">Edit</a></li>
 
 
-
-<li><span class="createlink"><a href="/ikiwiki.cgi?page=Discussion&amp;from=blog%2Fentry%2Fmongrel2_development&amp;do=create" rel="nofollow">?</a>Discussion</span></li>
 
 
 </ul>
@@ -325,10 +404,12 @@ ikiwiki is covered with github pages provided hosting.</p>
 
 </div>
 
+
+
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="relativedate" title="Mon, 26 Jul 2010 20:30:15 -0300">Mon 26 Jul 2010 08:30:15 PM ART</span>
+Posted <span class="relativedate" title="Mon, 26 Jul 2010 20:30:15 -0300">Mon Jul 26 20:30:15 2010</span>
 </span>
 
 
@@ -341,11 +422,9 @@ Posted <span class="relativedate" title="Mon, 26 Jul 2010 20:30:15 -0300">Mon 26
 <div class="actions">
 <ul>
 
-<li><a href="/ikiwiki.cgi?page=blog%2Fentry%2Fikiwiki_and_github_pages_equals_epic_win&amp;do=edit" rel="nofollow">Edit</a></li>
+<li><a href="/ikiwiki.cgi?do=edit&amp;page=blog%2Fentry%2Fikiwiki_and_github_pages_equals_epic_win" rel="nofollow">Edit</a></li>
 
 
-
-<li><span class="createlink"><a href="/ikiwiki.cgi?page=Discussion&amp;from=blog%2Fentry%2Fikiwiki_and_github_pages_equals_epic_win&amp;do=create" rel="nofollow">?</a>Discussion</span></li>
 
 
 </ul>
@@ -398,17 +477,19 @@ happening.</p>
 
 </div>
 
+
+
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="relativedate" title="Tue, 20 Jul 2010 00:37:34 -0300">Tue 20 Jul 2010 12:37:34 AM ART</span>
+Posted <span class="relativedate" title="Tue, 20 Jul 2010 00:37:34 -0300">Tue Jul 20 00:37:34 2010</span>
 </span>
 
 
 <span class="tags">
 Tags:
 
-<span class="createlink"><a href="/ikiwiki.cgi?page=debian&amp;from=blog%2Fentry%2Fyour_own_kernel_with_amazon_ec2&amp;do=create" rel="nofollow">?</a>debian</span>
+<a href="../tags/debian/" rel="tag">debian</a>
 
 </span>
 
@@ -424,8 +505,6 @@ Tags:
 <li><a href="/ikiwiki.cgi?page=blog%2Fentry%2Fyour_own_kernel_with_amazon_ec2&amp;do=edit" rel="nofollow">Edit</a></li>
 
 
-
-<li><span class="createlink"><a href="/ikiwiki.cgi?page=Discussion&amp;from=blog%2Fentry%2Fyour_own_kernel_with_amazon_ec2&amp;do=create" rel="nofollow">?</a>Discussion</span></li>
 
 
 </ul>
@@ -446,11 +525,14 @@ Tags:
 
 
 
+
+
 </div>
 
 <div id="footer" class="pagefooter">
 
 <div id="pageinfo">
+
 
 
 
@@ -471,8 +553,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="relativedate" title="Sun, 23 Feb 2014 14:55:57 -0300">Sun 23 Feb 2014 02:55:57 PM ART</span>
-<!-- Created <span class="relativedate" title="Tue, 20 Jul 2010 00:37:34 -0300">Tue 20 Jul 2010 12:37:34 AM ART</span> -->
+Last edited <span class="relativedate" title="Sun, 23 Feb 2014 14:24:02 -0300">Sun Feb 23 14:24:02 2014</span>
+<!-- Created <span class="relativedate" title="Tue, 20 Jul 2010 00:37:34 -0300">Tue Jul 20 00:37:34 2010</span> -->
 </div>
 
 </div>

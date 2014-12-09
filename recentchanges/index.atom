@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>RecentChanges</title>
-<link href="http://miguel.cc//recentchanges/"/>
-<link href="http://miguel.cc//recentchanges/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://miguel.cc/recentchanges/"/>
+<link href="http://miguel.cc/recentchanges/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>miguel.cc</name>
@@ -13,15 +13,279 @@
 
 
 
-<id>http://miguel.cc//recentchanges/</id>
+<id>http://miguel.cc/recentchanges/</id>
 
 <subtitle type="html">miguel.cc</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-23T18:37:17Z</updated>
+<updated>2014-12-09T15:42:58Z</updated>
+<entry>
+	<title>change to tags/chef on miguel.cc</title>
+
+	<id>http://miguel.cc/recentchanges/change_fda4b49d428c52fad78bd5d77e20aa2c625f0174/</id>
+
+	<link href="http://miguel.cc/recentchanges/#change-fda4b49d428c52fad78bd5d77e20aa2c625f0174"/>
+
+	<author><name>miguel</name></author>
+
+
+
+
+
+	<updated>2014-12-09T15:42:58Z</updated>
+	<published>2014-12-09T15:42:58Z</published>
+
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+
+
+&lt;div id=&quot;change-fda4b49d428c52fad78bd5d77e20aa2c625f0174&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=tags%2Fchef&quot; rel=&quot;nofollow&quot;&gt;tags/chef&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Tue, 09 Dec 2014 12:42:58 -0300&quot;&gt;12:42:58 12/09/14&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+&lt;span class=&quot;revert&quot;&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=revert&amp;amp;rev=fda4b49d428c52fad78bd5d77e20aa2c625f0174&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tags/chef&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to index on miguel.cc</title>
+
+	<id>http://miguel.cc/recentchanges/change_f381b170cab83ed282ef15fbfa6cf0184273d3c0/</id>
+
+	<link href="http://miguel.cc/recentchanges/#change-f381b170cab83ed282ef15fbfa6cf0184273d3c0"/>
+
+	<author><name>miguel</name></author>
+
+
+
+
+
+	<updated>2014-12-09T15:29:25Z</updated>
+	<published>2014-12-09T15:29:25Z</published>
+
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+
+
+&lt;div id=&quot;change-f381b170cab83ed282ef15fbfa6cf0184273d3c0&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=index&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Tue, 09 Dec 2014 12:29:25 -0300&quot;&gt;12:29:25 12/09/14&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+&lt;span class=&quot;revert&quot;&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=f381b170cab83ed282ef15fbfa6cf0184273d3c0&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Update index page with up-to-date personal information&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to tags/debian on miguel.cc</title>
+
+	<id>http://miguel.cc/recentchanges/change_ebaa6a1d6d488d877511ddf8da4ae8b4665bb05c/</id>
+
+	<link href="http://miguel.cc/recentchanges/#change-ebaa6a1d6d488d877511ddf8da4ae8b4665bb05c"/>
+
+	<author><name>miguel</name></author>
+
+
+
+
+
+	<updated>2014-12-09T15:08:05Z</updated>
+	<published>2014-12-09T15:08:05Z</published>
+
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+
+
+&lt;div id=&quot;change-ebaa6a1d6d488d877511ddf8da4ae8b4665bb05c&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=tags%2Fdebian&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;tags/debian&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Tue, 09 Dec 2014 12:08:05 -0300&quot;&gt;12:08:05 12/09/14&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+&lt;span class=&quot;revert&quot;&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=ebaa6a1d6d488d877511ddf8da4ae8b4665bb05c&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tags/debian&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to blog/entry/free_hosted_chef_server on miguel.cc</title>
+
+	<id>http://miguel.cc/recentchanges/change_f8611785d43890a5f1b316a941c9add9e9f2f556/</id>
+
+	<link href="http://miguel.cc/recentchanges/#change-f8611785d43890a5f1b316a941c9add9e9f2f556"/>
+
+	<author><name>miguel</name></author>
+
+
+
+
+
+	<updated>2014-12-09T14:29:26Z</updated>
+	<published>2014-12-09T14:29:26Z</published>
+
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+
+
+&lt;div id=&quot;change-f8611785d43890a5f1b316a941c9add9e9f2f556&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Ffree_hosted_chef_server&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog/entry/free hosted chef server&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Tue, 09 Dec 2014 11:29:26 -0300&quot;&gt;11:29:26 12/09/14&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+&lt;span class=&quot;revert&quot;&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=f8611785d43890a5f1b316a941c9add9e9f2f556&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+blog update&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to blog/entry/life_2010_2014 blog/entry/nomadium_apt_repo on miguel.cc</title>
 
-	<id>http://miguel.cc//recentchanges/change_1252766bfd87a03640cdb6a749b78e8d490c9bad/</id>
+	<id>http://miguel.cc/recentchanges/change_1252766bfd87a03640cdb6a749b78e8d490c9bad/</id>
 
 	<link href="http://miguel.cc/recentchanges/#change-1252766bfd87a03640cdb6a749b78e8d490c9bad"/>
 
@@ -33,6 +297,7 @@
 
 	<updated>2014-02-23T18:37:17Z</updated>
 	<published>2014-02-23T18:37:17Z</published>
+
 
 	<content type="html" xml:lang="en">
 	
@@ -47,24 +312,27 @@
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Flife_2010_2014&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog/entry/life 2010 2014&lt;/a&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Fnomadium_apt_repo&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog/entry/nomadium apt repo&lt;/a&gt;
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=blog%2Fentry%2Flife_2010_2014&quot; rel=&quot;nofollow&quot;&gt;blog/entry/life 2010 2014&lt;/a&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=blog%2Fentry%2Fnomadium_apt_repo&quot; rel=&quot;nofollow&quot;&gt;blog/entry/nomadium apt repo&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
 &lt;span class=&quot;committer&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=miguel&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 23 Feb 2014 15:37:17 -0300&quot;&gt;03:37:17 PM 02/23/2014&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 23 Feb 2014 15:37:17 -0300&quot;&gt;15:37:17 02/23/14&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 &lt;span class=&quot;revert&quot;&gt;
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=1252766bfd87a03640cdb6a749b78e8d490c9bad&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc//recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=revert&amp;amp;rev=1252766bfd87a03640cdb6a749b78e8d490c9bad&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
@@ -85,7 +353,7 @@ dafuq: I&amp;#39;m blogging again&lt;br /&gt;
 <entry>
 	<title>change to blog code contact grep on miguel.cc</title>
 
-	<id>http://miguel.cc//recentchanges/change_0323a01e1e3dd59b2adfeeb4da3068b25a85c592/</id>
+	<id>http://miguel.cc/recentchanges/change_0323a01e1e3dd59b2adfeeb4da3068b25a85c592/</id>
 
 	<link href="http://miguel.cc/recentchanges/#change-0323a01e1e3dd59b2adfeeb4da3068b25a85c592"/>
 
@@ -97,6 +365,7 @@ dafuq: I&amp;#39;m blogging again&lt;br /&gt;
 
 	<updated>2014-02-23T17:24:02Z</updated>
 	<published>2014-02-23T17:24:02Z</published>
+
 
 	<content type="html" xml:lang="en">
 	
@@ -111,7 +380,10 @@ dafuq: I&amp;#39;m blogging again&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=blog&quot; rel=&quot;nofollow&quot;&gt;blog&lt;/a&gt;
 
 &lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=code&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;code&lt;/a&gt;
 
@@ -129,10 +401,10 @@ dafuq: I&amp;#39;m blogging again&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 23 Feb 2014 14:24:02 -0300&quot;&gt;02:24:02 PM 02/23/2014&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 23 Feb 2014 14:24:02 -0300&quot;&gt;14:24:02 02/23/14&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 &lt;span class=&quot;revert&quot;&gt;
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=0323a01e1e3dd59b2adfeeb4da3068b25a85c592&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc//recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=revert&amp;amp;rev=0323a01e1e3dd59b2adfeeb4da3068b25a85c592&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
@@ -153,7 +425,7 @@ Update contact information&lt;br /&gt;
 <entry>
 	<title>change to index on miguel.cc</title>
 
-	<id>http://miguel.cc//recentchanges/change_3a3bd982acb6d56d672f3c9f41a88fa37e85d942/</id>
+	<id>http://miguel.cc/recentchanges/change_3a3bd982acb6d56d672f3c9f41a88fa37e85d942/</id>
 
 	<link href="http://miguel.cc/recentchanges/#change-3a3bd982acb6d56d672f3c9f41a88fa37e85d942"/>
 
@@ -165,6 +437,7 @@ Update contact information&lt;br /&gt;
 
 	<updated>2014-02-23T17:20:21Z</updated>
 	<published>2014-02-23T17:20:21Z</published>
+
 
 	<content type="html" xml:lang="en">
 	
@@ -179,6 +452,9 @@ Update contact information&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
+
+
+
 &lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=index&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
 
 &lt;/span&gt;
@@ -191,10 +467,10 @@ Update contact information&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 23 Feb 2014 14:20:21 -0300&quot;&gt;02:20:21 PM 02/23/2014&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 23 Feb 2014 14:20:21 -0300&quot;&gt;14:20:21 02/23/14&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 &lt;span class=&quot;revert&quot;&gt;
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=3a3bd982acb6d56d672f3c9f41a88fa37e85d942&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc//recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=3a3bd982acb6d56d672f3c9f41a88fa37e85d942&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
@@ -215,7 +491,7 @@ Update index page with up-to-date personal information&lt;br /&gt;
 <entry>
 	<title>change to index on miguel.cc</title>
 
-	<id>http://miguel.cc//recentchanges/change_fb75ecd3844b264669dcef0a00e3f6fb2e857a8f/</id>
+	<id>http://miguel.cc/recentchanges/change_fb75ecd3844b264669dcef0a00e3f6fb2e857a8f/</id>
 
 	<link href="http://miguel.cc/recentchanges/#change-fb75ecd3844b264669dcef0a00e3f6fb2e857a8f"/>
 
@@ -227,6 +503,7 @@ Update index page with up-to-date personal information&lt;br /&gt;
 
 	<updated>2010-08-15T04:20:59Z</updated>
 	<published>2010-08-15T04:20:59Z</published>
+
 
 	<content type="html" xml:lang="en">
 	
@@ -241,6 +518,9 @@ Update index page with up-to-date personal information&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
+
+
+
 &lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=index&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
 
 &lt;/span&gt;
@@ -253,10 +533,10 @@ Update index page with up-to-date personal information&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 15 Aug 2010 01:20:59 -0300&quot;&gt;01:20:59 AM 08/15/2010&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 15 Aug 2010 01:20:59 -0300&quot;&gt;01:20:59 08/15/10&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 &lt;span class=&quot;revert&quot;&gt;
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=fb75ecd3844b264669dcef0a00e3f6fb2e857a8f&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc//recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=revert&amp;amp;rev=fb75ecd3844b264669dcef0a00e3f6fb2e857a8f&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
@@ -277,7 +557,7 @@ add flavors.me link&lt;br /&gt;
 <entry>
 	<title>change to index on miguel.cc</title>
 
-	<id>http://miguel.cc//recentchanges/change_23c0f3ad241daba1454c68d89060423086afbad2/</id>
+	<id>http://miguel.cc/recentchanges/change_23c0f3ad241daba1454c68d89060423086afbad2/</id>
 
 	<link href="http://miguel.cc/recentchanges/#change-23c0f3ad241daba1454c68d89060423086afbad2"/>
 
@@ -289,6 +569,7 @@ add flavors.me link&lt;br /&gt;
 
 	<updated>2010-07-30T23:10:55Z</updated>
 	<published>2010-07-30T23:10:55Z</published>
+
 
 	<content type="html" xml:lang="en">
 	
@@ -303,22 +584,25 @@ add flavors.me link&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
+
+
+
 &lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=index&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
 &lt;span class=&quot;committer&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=miguel&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Fri, 30 Jul 2010 20:10:55 -0300&quot;&gt;08:10:55 PM 07/30/2010&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Fri, 30 Jul 2010 20:10:55 -0300&quot;&gt;20:10:55 07/30/10&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 &lt;span class=&quot;revert&quot;&gt;
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=23c0f3ad241daba1454c68d89060423086afbad2&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc//recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=23c0f3ad241daba1454c68d89060423086afbad2&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
@@ -339,7 +623,7 @@ enable blog&lt;br /&gt;
 <entry>
 	<title>change to blog/entry/mongrel2_development on miguel.cc</title>
 
-	<id>http://miguel.cc//recentchanges/change_6da06b12c4aa0f4a126d4019513087bad79adcb0/</id>
+	<id>http://miguel.cc/recentchanges/change_6da06b12c4aa0f4a126d4019513087bad79adcb0/</id>
 
 	<link href="http://miguel.cc/recentchanges/#change-6da06b12c4aa0f4a126d4019513087bad79adcb0"/>
 
@@ -351,6 +635,7 @@ enable blog&lt;br /&gt;
 
 	<updated>2010-07-30T19:36:18Z</updated>
 	<published>2010-07-30T19:36:18Z</published>
+
 
 	<content type="html" xml:lang="en">
 	
@@ -365,7 +650,10 @@ enable blog&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Fmongrel2_development&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog/entry/mongrel2 development&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=blog%2Fentry%2Fmongrel2_development&quot; rel=&quot;nofollow&quot;&gt;blog/entry/mongrel2 development&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -377,10 +665,10 @@ enable blog&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Fri, 30 Jul 2010 16:36:18 -0300&quot;&gt;04:36:18 PM 07/30/2010&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Fri, 30 Jul 2010 16:36:18 -0300&quot;&gt;16:36:18 07/30/10&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 &lt;span class=&quot;revert&quot;&gt;
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=6da06b12c4aa0f4a126d4019513087bad79adcb0&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc//recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=revert&amp;amp;rev=6da06b12c4aa0f4a126d4019513087bad79adcb0&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
@@ -401,7 +689,7 @@ blog update&lt;br /&gt;
 <entry>
 	<title>change to blog/entry/ikiwiki_and_github_pages_equals_epic_win on miguel.cc</title>
 
-	<id>http://miguel.cc//recentchanges/change_0c75b3300426a84aa2ce022e2a337f099250d0ce/</id>
+	<id>http://miguel.cc/recentchanges/change_0c75b3300426a84aa2ce022e2a337f099250d0ce/</id>
 
 	<link href="http://miguel.cc/recentchanges/#change-0c75b3300426a84aa2ce022e2a337f099250d0ce"/>
 
@@ -413,6 +701,7 @@ blog update&lt;br /&gt;
 
 	<updated>2010-07-26T23:30:15Z</updated>
 	<published>2010-07-26T23:30:15Z</published>
+
 
 	<content type="html" xml:lang="en">
 	
@@ -427,22 +716,25 @@ blog update&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
+
+
+
 &lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Fikiwiki_and_github_pages_equals_epic_win&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog/entry/ikiwiki and github pages equals epic win&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
 &lt;span class=&quot;committer&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=miguel&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Mon, 26 Jul 2010 20:30:15 -0300&quot;&gt;08:30:15 PM 07/26/2010&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Mon, 26 Jul 2010 20:30:15 -0300&quot;&gt;20:30:15 07/26/10&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 &lt;span class=&quot;revert&quot;&gt;
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=0c75b3300426a84aa2ce022e2a337f099250d0ce&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc//recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=revert&amp;amp;rev=0c75b3300426a84aa2ce022e2a337f099250d0ce&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
@@ -463,7 +755,7 @@ blog update&lt;br /&gt;
 <entry>
 	<title>change to CNAME on miguel.cc</title>
 
-	<id>http://miguel.cc//recentchanges/change_6777bd98559eceb36374dc6c10e341a623ef4005/</id>
+	<id>http://miguel.cc/recentchanges/change_6777bd98559eceb36374dc6c10e341a623ef4005/</id>
 
 	<link href="http://miguel.cc/recentchanges/#change-6777bd98559eceb36374dc6c10e341a623ef4005"/>
 
@@ -475,6 +767,7 @@ blog update&lt;br /&gt;
 
 	<updated>2010-07-26T01:21:03Z</updated>
 	<published>2010-07-26T01:21:03Z</published>
+
 
 	<content type="html" xml:lang="en">
 	
@@ -489,22 +782,25 @@ blog update&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=CNAME&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;CNAME&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=CNAME&quot; rel=&quot;nofollow&quot;&gt;CNAME&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
 &lt;span class=&quot;committer&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=miguel&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=miguel&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 25 Jul 2010 22:21:03 -0300&quot;&gt;10:21:03 PM 07/25/2010&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 25 Jul 2010 22:21:03 -0300&quot;&gt;22:21:03 07/25/10&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 &lt;span class=&quot;revert&quot;&gt;
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=6777bd98559eceb36374dc6c10e341a623ef4005&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc//recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=6777bd98559eceb36374dc6c10e341a623ef4005&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
@@ -525,7 +821,7 @@ enable github pages CNAME feature for miguel.cc&lt;br /&gt;
 <entry>
 	<title>change to CNAME on miguel.cc</title>
 
-	<id>http://miguel.cc//recentchanges/change_e49b9e505d8e879dbe101bef2f7435e709f139b9/</id>
+	<id>http://miguel.cc/recentchanges/change_e49b9e505d8e879dbe101bef2f7435e709f139b9/</id>
 
 	<link href="http://miguel.cc/recentchanges/#change-e49b9e505d8e879dbe101bef2f7435e709f139b9"/>
 
@@ -537,6 +833,7 @@ enable github pages CNAME feature for miguel.cc&lt;br /&gt;
 
 	<updated>2010-07-25T22:04:10Z</updated>
 	<published>2010-07-25T22:04:10Z</published>
+
 
 	<content type="html" xml:lang="en">
 	
@@ -551,6 +848,9 @@ enable github pages CNAME feature for miguel.cc&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
+
+
+
 &lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=CNAME&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;CNAME&lt;/a&gt;
 
 &lt;/span&gt;
@@ -563,10 +863,10 @@ enable github pages CNAME feature for miguel.cc&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 25 Jul 2010 19:04:10 -0300&quot;&gt;07:04:10 PM 07/25/2010&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 25 Jul 2010 19:04:10 -0300&quot;&gt;19:04:10 07/25/10&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 &lt;span class=&quot;revert&quot;&gt;
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=e49b9e505d8e879dbe101bef2f7435e709f139b9&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc//recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=revert&amp;amp;rev=e49b9e505d8e879dbe101bef2f7435e709f139b9&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
@@ -587,7 +887,7 @@ test github pages CNAME feature for nomadium.org&lt;br /&gt;
 <entry>
 	<title>change to blog blog/entry/your_own_kernel_with_amazon_ec2 on miguel.cc</title>
 
-	<id>http://miguel.cc//recentchanges/change_da32db134406f6e9e5c956f1f49246dc5a2a8d6c/</id>
+	<id>http://miguel.cc/recentchanges/change_da32db134406f6e9e5c956f1f49246dc5a2a8d6c/</id>
 
 	<link href="http://miguel.cc/recentchanges/#change-da32db134406f6e9e5c956f1f49246dc5a2a8d6c"/>
 
@@ -599,6 +899,7 @@ test github pages CNAME feature for nomadium.org&lt;br /&gt;
 
 	<updated>2010-07-20T03:37:34Z</updated>
 	<published>2010-07-20T03:37:34Z</published>
+
 
 	<content type="html" xml:lang="en">
 	
@@ -613,7 +914,10 @@ test github pages CNAME feature for nomadium.org&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=blog&quot; rel=&quot;nofollow&quot;&gt;blog&lt;/a&gt;
 
 &lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=blog%2Fentry%2Fyour_own_kernel_with_amazon_ec2&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;blog/entry/your own kernel with amazon ec2&lt;/a&gt;
 
@@ -627,10 +931,10 @@ test github pages CNAME feature for nomadium.org&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Tue, 20 Jul 2010 00:37:34 -0300&quot;&gt;12:37:34 AM 07/20/2010&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Tue, 20 Jul 2010 00:37:34 -0300&quot;&gt;00:37:34 07/20/10&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 &lt;span class=&quot;revert&quot;&gt;
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=da32db134406f6e9e5c956f1f49246dc5a2a8d6c&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc//recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=revert&amp;amp;rev=da32db134406f6e9e5c956f1f49246dc5a2a8d6c&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
@@ -651,7 +955,7 @@ Look ma, I&amp;#39;m blogging&lt;br /&gt;
 <entry>
 	<title>change to .gitignore code contact grep index on miguel.cc</title>
 
-	<id>http://miguel.cc//recentchanges/change_67efaecc2a75f902fe1c9f0ec882ce9764a41e5c/</id>
+	<id>http://miguel.cc/recentchanges/change_67efaecc2a75f902fe1c9f0ec882ce9764a41e5c/</id>
 
 	<link href="http://miguel.cc/recentchanges/#change-67efaecc2a75f902fe1c9f0ec882ce9764a41e5c"/>
 
@@ -663,6 +967,7 @@ Look ma, I&amp;#39;m blogging&lt;br /&gt;
 
 	<updated>2010-05-16T03:19:34Z</updated>
 	<published>2010-05-16T03:19:34Z</published>
+
 
 	<content type="html" xml:lang="en">
 	
@@ -677,15 +982,18 @@ Look ma, I&amp;#39;m blogging&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
+
+
+
 &lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=.gitignore&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;.gitignore&lt;/a&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=code&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;code&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=code&quot; rel=&quot;nofollow&quot;&gt;code&lt;/a&gt;
 
 &lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=contact&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;contact&lt;/a&gt;
 
 &lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=grep&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;grep&lt;/a&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=index&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=index&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -697,10 +1005,10 @@ Look ma, I&amp;#39;m blogging&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 16 May 2010 00:19:34 -0300&quot;&gt;12:19:34 AM 05/16/2010&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sun, 16 May 2010 00:19:34 -0300&quot;&gt;00:19:34 05/16/10&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 &lt;span class=&quot;revert&quot;&gt;
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=67efaecc2a75f902fe1c9f0ec882ce9764a41e5c&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc//recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=revert&amp;amp;rev=67efaecc2a75f902fe1c9f0ec882ce9764a41e5c&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
@@ -721,7 +1029,7 @@ add new pages: index, code, contact and grep&lt;br /&gt;
 <entry>
 	<title>change to .gitignore on miguel.cc</title>
 
-	<id>http://miguel.cc//recentchanges/change_1dc5cfe60b4923ed9f04d955d4097e31ff4f210b/</id>
+	<id>http://miguel.cc/recentchanges/change_1dc5cfe60b4923ed9f04d955d4097e31ff4f210b/</id>
 
 	<link href="http://miguel.cc/recentchanges/#change-1dc5cfe60b4923ed9f04d955d4097e31ff4f210b"/>
 
@@ -733,6 +1041,7 @@ add new pages: index, code, contact and grep&lt;br /&gt;
 
 	<updated>2010-05-16T02:48:40Z</updated>
 	<published>2010-05-16T02:48:40Z</published>
+
 
 	<content type="html" xml:lang="en">
 	
@@ -747,7 +1056,10 @@ add new pages: index, code, contact and grep&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?page=.gitignore&amp;amp;do=goto&quot; rel=&quot;nofollow&quot;&gt;.gitignore&lt;/a&gt;
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=.gitignore&quot; rel=&quot;nofollow&quot;&gt;.gitignore&lt;/a&gt;
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -759,10 +1071,10 @@ add new pages: index, code, contact and grep&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sat, 15 May 2010 23:48:40 -0300&quot;&gt;11:48:40 PM 05/15/2010&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Sat, 15 May 2010 23:48:40 -0300&quot;&gt;23:48:40 05/15/10&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 &lt;span class=&quot;revert&quot;&gt;
-&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?rev=1dc5cfe60b4923ed9f04d955d4097e31ff4f210b&amp;amp;do=revert&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc//recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=revert&amp;amp;rev=1dc5cfe60b4923ed9f04d955d4097e31ff4f210b&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;

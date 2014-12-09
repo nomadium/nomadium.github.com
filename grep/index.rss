@@ -4,8 +4,11 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>grep</title>
-<link>http://miguel.cc//grep/</link>
+<link>http://miguel.cc/grep/</link>
+
 <description>miguel.cc</description>
+<generator>ikiwiki</generator>
+<pubDate>Wed, 31 Dec 1969 21:00:00 -0300</pubDate>
 
 </channel>
 </rss>

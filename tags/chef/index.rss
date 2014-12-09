@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged chef</title>
+<link>http://miguel.cc/tags/chef/</link>
+
+<description>miguel.cc</description>
+<generator>ikiwiki</generator>
+<pubDate>Tue, 09 Dec 2014 12:54:28 -0300</pubDate>
+<item>
+	<title>Free Chef server hosted at api.qirtaiba.org</title>
+
+	<guid isPermaLink="false">http://miguel.cc/blog/entry/free_hosted_chef_server/</guid>
+
+	<link>http://miguel.cc/blog/entry/free_hosted_chef_server/</link>
+
+
+
+	<category>chef</category>
+
+
+	<pubDate>Tue, 09 Dec 2014 11:29:26 -0300</pubDate>
+	<dcterms:modified>2014-12-09T15:54:28Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Since months ago I was pondering over providing an alternative &lt;a href=&quot;https://www.chef.io/&quot;&gt;Chef&lt;/a&gt;
+hosted service.&lt;/p&gt;
+
+&lt;p&gt;The timing of the &lt;a href=&quot;https://www.chef.io/blog/2014/09/08/chef-releases-chef-12-to-power-devops-practices-in-the-enterprise/&quot;&gt;recent announcement by Chef, Inc.&lt;/a&gt; converging
+and releasing a single code base under Apache 2.0 license for Chef server
+certainly makes this initiative even more interesting for me.&lt;/p&gt;
+
+&lt;p&gt;So, I wanted to see if there is interest in such thing and I went ahead to
+setup this service.&lt;/p&gt;
+
+&lt;p&gt;The service is free to use and is available at &lt;a href=&quot;https://api.qirtaiba.org/&quot;&gt;api.qirtaiba.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The service is beta but you are more than invited to use it.&lt;/p&gt;
+
+&lt;p&gt;I look forward to hear comments and see what the people think about it.
+You can &lt;a href=&quot;mailto:miguel@miguel.cc&quot;&gt;drop me a line&lt;/a&gt; or a &lt;a href=&quot;https://twitter.com/nomadium&quot;&gt;tweet&lt;/a&gt; if you wish.&lt;/p&gt;
+
+&lt;p&gt;Let&#39;s hack and automate.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

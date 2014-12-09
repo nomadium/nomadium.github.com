@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>grep</title>
-<link href="http://miguel.cc//grep/"/>
-<link href="http://miguel.cc//grep/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://miguel.cc/grep/"/>
+<link href="http://miguel.cc/grep/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>miguel.cc</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://miguel.cc//grep/</id>
+<id>http://miguel.cc/grep/</id>
 
 <subtitle type="html">miguel.cc</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>

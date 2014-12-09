@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>blog</title>
-<link href="http://miguel.cc//blog/"/>
-<link href="http://miguel.cc//blog/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://miguel.cc/blog/"/>
+<link href="http://miguel.cc/blog/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>miguel.cc</name>
@@ -13,24 +13,107 @@
 
 
 
-<id>http://miguel.cc//blog/</id>
+<id>http://miguel.cc/blog/</id>
 
 <subtitle type="html">miguel.cc</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-23T18:33:41Z</updated>
+<updated>2014-12-09T15:54:28Z</updated>
+<entry>
+	<title>Free Chef server hosted at api.qirtaiba.org</title>
+
+	<id>http://miguel.cc/blog/entry/free_hosted_chef_server/</id>
+
+	<link href="http://miguel.cc/blog/entry/free_hosted_chef_server/"/>
+
+
+
+
+
+
+	<category term="chef" />
+
+
+	<updated>2014-12-09T15:54:28Z</updated>
+	<published>2014-12-09T14:29:26Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Since months ago I was pondering over providing an alternative &lt;a href=&quot;https://www.chef.io/&quot;&gt;Chef&lt;/a&gt;
+hosted service.&lt;/p&gt;
+
+&lt;p&gt;The timing of the &lt;a href=&quot;https://www.chef.io/blog/2014/09/08/chef-releases-chef-12-to-power-devops-practices-in-the-enterprise/&quot;&gt;recent announcement by Chef, Inc.&lt;/a&gt; converging
+and releasing a single code base under Apache 2.0 license for Chef server
+certainly makes this initiative even more interesting for me.&lt;/p&gt;
+
+&lt;p&gt;So, I wanted to see if there is interest in such thing and I went ahead to
+setup this service.&lt;/p&gt;
+
+&lt;p&gt;The service is free to use and is available at &lt;a href=&quot;https://api.qirtaiba.org/&quot;&gt;api.qirtaiba.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The service is beta but you are more than invited to use it.&lt;/p&gt;
+
+&lt;p&gt;I look forward to hear comments and see what the people think about it.
+You can &lt;a href=&quot;mailto:miguel@miguel.cc&quot;&gt;drop me a line&lt;/a&gt; or a &lt;a href=&quot;https://twitter.com/nomadium&quot;&gt;tweet&lt;/a&gt; if you wish.&lt;/p&gt;
+
+&lt;p&gt;Let&#39;s hack and automate.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>life: 2010-2014</title>
+
+	<id>http://miguel.cc/blog/entry/life_2010_2014/</id>
+
+	<link href="http://miguel.cc/blog/entry/life_2010_2014/"/>
+
+
+
+
+
+	<updated>2014-02-23T18:37:17Z</updated>
+	<published>2014-02-23T18:37:17Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Wow, it looks like the last time I blogged something here was like 3 years
+and 7 months or so.&lt;/p&gt;
+
+&lt;p&gt;In that period many things had changed but the most relevant event were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;I don&#39;t live anymore in Venezuela.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I became a Debian Developer.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Another important things happened on my personal life but they don&#39;t belong
+on this blog anyway.&lt;/p&gt;
+
+&lt;p&gt;It feels good to write something again even if it&#39;s absolutely irrelevant
+in the great scheme of things.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>nomadium APT repository</title>
 
-	<id>http://miguel.cc//blog/entry/nomadium_apt_repo/</id>
+	<id>http://miguel.cc/blog/entry/nomadium_apt_repo/</id>
 
-	<link href="http://miguel.cc//blog/entry/nomadium_apt_repo/"/>
-
-
+	<link href="http://miguel.cc/blog/entry/nomadium_apt_repo/"/>
 
 
 
-	<updated>2014-02-23T18:33:41Z</updated>
-	<published>2014-02-23T18:33:41Z</published>
+
+
+	<updated>2014-02-23T18:37:17Z</updated>
+	<published>2014-02-23T18:37:17Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Well, the reason why I revived this blog (again) was because I wanted
@@ -62,48 +145,11 @@ until they are included in the next stable release.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>life: 2010-2014</title>
-
-	<id>http://miguel.cc//blog/entry/life_2010_2014/</id>
-
-	<link href="http://miguel.cc//blog/entry/life_2010_2014/"/>
-
-
-
-
-
-	<updated>2014-02-23T18:33:03Z</updated>
-	<published>2014-02-23T18:11:11Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Wow, it looks like the last time I blogged something here was like 3 years
-and 7 months or so.&lt;/p&gt;
-
-&lt;p&gt;In that period many things had changed but the most relevant event were:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;I don&#39;t live anymore in Venezuela.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;I became a Debian Developer.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;Another important things happened on my personal life but they don&#39;t belong
-on this blog anyway.&lt;/p&gt;
-
-&lt;p&gt;It feels good to write something again even if it&#39;s absolutely irrelevant
-in the great scheme of things.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>mongrel2 development</title>
 
-	<id>http://miguel.cc//blog/entry/mongrel2_development/</id>
+	<id>http://miguel.cc/blog/entry/mongrel2_development/</id>
 
-	<link href="http://miguel.cc//blog/entry/mongrel2_development/"/>
+	<link href="http://miguel.cc/blog/entry/mongrel2_development/"/>
 
 
 
@@ -111,6 +157,7 @@ in the great scheme of things.&lt;/p&gt;
 
 	<updated>2010-07-30T19:36:18Z</updated>
 	<published>2010-07-30T19:36:18Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;In my opinion you can learn a lot &lt;a href=&quot;http://twitter.com/zedshaw&quot;&gt;following the development process&lt;/a&gt;
@@ -157,9 +204,9 @@ included officially in Debian.&lt;/p&gt;
 <entry>
 	<title>ikiwiki + github pages = EPIC win!</title>
 
-	<id>http://miguel.cc//blog/entry/ikiwiki_and_github_pages_equals_epic_win/</id>
+	<id>http://miguel.cc/blog/entry/ikiwiki_and_github_pages_equals_epic_win/</id>
 
-	<link href="http://miguel.cc//blog/entry/ikiwiki_and_github_pages_equals_epic_win/"/>
+	<link href="http://miguel.cc/blog/entry/ikiwiki_and_github_pages_equals_epic_win/"/>
 
 
 
@@ -167,6 +214,7 @@ included officially in Debian.&lt;/p&gt;
 
 	<updated>2010-07-26T23:30:15Z</updated>
 	<published>2010-07-26T23:30:15Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Since a while ago I was aware of the possibility of hosting an ikiwiki
@@ -197,9 +245,9 @@ ikiwiki is covered with github pages provided hosting.&lt;/p&gt;
 <entry>
 	<title>your own kernel with amazon ec2</title>
 
-	<id>http://miguel.cc//blog/entry/your_own_kernel_with_amazon_ec2/</id>
+	<id>http://miguel.cc/blog/entry/your_own_kernel_with_amazon_ec2/</id>
 
-	<link href="http://miguel.cc//blog/entry/your_own_kernel_with_amazon_ec2/"/>
+	<link href="http://miguel.cc/blog/entry/your_own_kernel_with_amazon_ec2/"/>
 
 
 
@@ -211,6 +259,7 @@ ikiwiki is covered with github pages provided hosting.&lt;/p&gt;
 
 	<updated>2010-07-20T03:37:34Z</updated>
 	<published>2010-07-20T03:37:34Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Recently,
