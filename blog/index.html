@@ -1,11 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <link rel="stylesheet" href="../style.css" type="text/css" />
 
@@ -83,13 +82,159 @@ blog
 
 <div id="pagebody">
 
-<div id="content">
+<div id="content" role="main">
 <div  class="feedlink">
 
 <a class="feedbutton" type="application/rss+xml" rel="alternate" title="miguel.cc (RSS feed)" href="index.rss">RSS</a>
 
 
 <a class="feedbutton" type="application/atom+xml" rel="alternate" title="miguel.cc (Atom feed)" href="index.atom">Atom</a>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="header">
+
+<a href="./entry/write_aws_lambda_functions_in_ruby/">Write AWS Lambda functions in Ruby</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<p>Since AWS Lambda service release last year <a href="https://aws.amazon.com/blogs/aws/run-code-cloud/">announcement</a>,
+I wanted to try this service and I actually did it. I found it very
+interesting, powerful and full of possibilities, but to be honest, Node.js is
+not really my cup of tea. So, I kept waiting for additional languages support.</p>
+
+<p>So, with the recent announcement about <a href="https://aws.amazon.com/blogs/aws/aws-lambda-update-run-java-code-in-response-to-events/">Java 8 support</a> for AWS Lambda,
+I found an excuse to try it again and for this I decided to use JRuby and
+write my test functions in Ruby.</p>
+
+<p>After stumbling upon and reporting an <a href="https://forums.aws.amazon.com/thread.jspa?messageID=631100">issue</a> with JRuby releases
+before 1.7.21, I was finally able to write and run AWS Lambda functions in
+Ruby.</p>
+
+<p>To test this, I took the most <a href="http://docs.aws.amazon.com/lambda/latest/dg/java-gs.html">basic example</a> from
+AWS documentation and rewrote in Ruby:</p>
+
+<pre><code>require 'java'
+
+java_package 'example'
+
+java_import 'com.amazonaws.services.lambda.runtime.Context'
+java_import 'com.amazonaws.services.lambda.runtime.LambdaLogger'
+
+class Hello
+  java_signature 'String handler(int count, Context context)'
+  def handler(count, context)
+    logger = context.getLogger
+    logger.log("received : #{count}")
+    count.to_s
+  end
+end
+</code></pre>
+
+<p>To deploy and run that code, you must create an artifact acceptable for
+AWS Lambda (mostly .zip and .jar files). You can create those artifacts by
+using Maven as is explained in the <a href="http://docs.aws.amazon.com/lambda/latest/dg/java-create-jar-pkg-maven-no-ide.html">documentation</a>.</p>
+
+<p>Your code should end in a location similar to:
+<code>proj-dir/src/main/ruby/example/Hello.rb</code>.</p>
+
+<p>And you need to add some extra dependencies to use JRuby:</p>
+
+<p>JRuby (use jruby-complete jar <a href="http://jruby.org/2015/07/07/jruby-1-7-21.html">1.7.21</a> or greater):</p>
+
+<pre><code>&lt;dependency&gt;
+  &lt;groupId&gt;org.jruby&lt;/groupId&gt;
+  &lt;artifactId&gt;jruby-complete&lt;/artifactId&gt;
+  &lt;version&gt;1.7.21&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+
+<p>JRuby Maven compiler plugin:</p>
+
+<pre><code>&lt;plugin&gt;
+  &lt;groupId&gt;de.saumya.mojo&lt;/groupId&gt;
+  &lt;artifactId&gt;jruby-maven-plugin&lt;/artifactId&gt;
+  &lt;version&gt;1.0.10&lt;/version&gt;
+  &lt;executions&gt;
+    &lt;execution&gt;
+      &lt;phase&gt;generate-sources&lt;/phase&gt;
+      &lt;goals&gt;
+        &lt;goal&gt;compile&lt;/goal&gt;
+      &lt;/goals&gt;
+      &lt;configuration&gt;
+        &lt;generateJava&gt;true&lt;/generateJava&gt;
+        &lt;generatedJavaDirectory&gt;${jruby.generated.sources}&lt;/generatedJavaDirectory&gt;
+      &lt;/configuration&gt;
+    &lt;/execution&gt;
+  &lt;/executions&gt;
+&lt;/plugin&gt;
+</code></pre>
+
+<p>After adding these extra dependencies and running <code>mvn package</code> you should have
+a .jar file ready to be used with Lambda.</p>
+
+<p>So far, I only have observed two downsides about using JRuby for
+Lambda functions. The first one is, jruby-complete distribution is 20 MB in
+size, so I found my functions a little bloated in size.
+Hopefully, in the future AWS will add support for more runtimes and this will
+not be an issue anymore.</p>
+
+<p>The second detail is, the first time you run your function you will notice
+a very long execution time (around 10s in my case) due to the usual slow JVM
+start up time. If you function is executed with relative frequence you will
+notice AWS Lambda reuse hardware and will obtain more reasonable execution
+times (around 100 ms for trivial functions).</p>
+
+<p>All in all, I look forward to find more uses for this service and I hope for
+more convenient languages (e.g. Ruby, Go, Python, etc) being supported in AWS
+Lambda.</p>
+
+<p>PS. In an AWS event today, it was announced a new service named
+<a href="http://aws.amazon.com/api-gateway/">"API Gateway"</a> that can be combined with AWS Lambda as backend
+functions to build API endpoints. It's worth checking out.</p>
+
+</div>
+
+
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="relativedate" title="Thu, 09 Jul 2015 19:18:26 -0300">Thu 09 Jul 2015 07:18:26 PM ART</span>
+</span>
+
+
+<span class="tags">
+Tags:
+
+<a href="../tags/aws/" rel="tag">aws</a>
+
+</span>
+
+
+
+
+
+
+
+<div class="actions">
+<ul>
+
+<li><a href="/ikiwiki.cgi?do=edit&amp;page=blog%2Fentry%2Fwrite_aws_lambda_functions_in_ruby" rel="nofollow">Edit</a></li>
+
+
+
+
+</ul>
+</div>
+
+
+</div>
 
 </div>
 <div class="inlinepage">
@@ -130,7 +275,7 @@ You can <a href="mailto:miguel@miguel.cc">drop me a line</a> or a <a href="https
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="relativedate" title="Tue, 09 Dec 2014 11:29:26 -0300">Tue Dec  9 11:29:26 2014</span>
+Posted <span class="relativedate" title="Tue, 09 Dec 2014 11:29:26 -0300">Tue 09 Dec 2014 11:29:26 AM ART</span>
 </span>
 
 
@@ -150,7 +295,7 @@ Tags:
 <div class="actions">
 <ul>
 
-<li><a href="/ikiwiki.cgi?page=blog%2Fentry%2Ffree_hosted_chef_server&amp;do=edit" rel="nofollow">Edit</a></li>
+<li><a href="/ikiwiki.cgi?do=edit&amp;page=blog%2Fentry%2Ffree_hosted_chef_server" rel="nofollow">Edit</a></li>
 
 
 
@@ -198,7 +343,7 @@ in the great scheme of things.</p>
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="relativedate" title="Sun, 23 Feb 2014 15:37:17 -0300">Sun Feb 23 15:37:17 2014</span>
+Posted <span class="relativedate" title="Sun, 23 Feb 2014 15:37:17 -0300">Sun 23 Feb 2014 03:37:17 PM ART</span>
 </span>
 
 
@@ -211,7 +356,7 @@ Posted <span class="relativedate" title="Sun, 23 Feb 2014 15:37:17 -0300">Sun Fe
 <div class="actions">
 <ul>
 
-<li><a href="/ikiwiki.cgi?page=blog%2Fentry%2Flife_2010_2014&amp;do=edit" rel="nofollow">Edit</a></li>
+<li><a href="/ikiwiki.cgi?do=edit&amp;page=blog%2Fentry%2Flife_2010_2014" rel="nofollow">Edit</a></li>
 
 
 
@@ -265,7 +410,7 @@ until they are included in the next stable release.</p>
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="relativedate" title="Sun, 23 Feb 2014 15:37:17 -0300">Sun Feb 23 15:37:17 2014</span>
+Posted <span class="relativedate" title="Sun, 23 Feb 2014 15:37:17 -0300">Sun 23 Feb 2014 03:37:17 PM ART</span>
 </span>
 
 
@@ -345,7 +490,7 @@ included officially in Debian.</p>
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="relativedate" title="Fri, 30 Jul 2010 16:36:18 -0300">Fri Jul 30 16:36:18 2010</span>
+Posted <span class="relativedate" title="Fri, 30 Jul 2010 16:36:18 -0300">Fri 30 Jul 2010 04:36:18 PM ART</span>
 </span>
 
 
@@ -409,7 +554,7 @@ ikiwiki is covered with github pages provided hosting.</p>
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="relativedate" title="Mon, 26 Jul 2010 20:30:15 -0300">Mon Jul 26 20:30:15 2010</span>
+Posted <span class="relativedate" title="Mon, 26 Jul 2010 20:30:15 -0300">Mon 26 Jul 2010 08:30:15 PM ART</span>
 </span>
 
 
@@ -482,7 +627,7 @@ happening.</p>
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="relativedate" title="Tue, 20 Jul 2010 00:37:34 -0300">Tue Jul 20 00:37:34 2010</span>
+Posted <span class="relativedate" title="Tue, 20 Jul 2010 00:37:34 -0300">Tue 20 Jul 2010 12:37:34 AM ART</span>
 </span>
 
 
@@ -502,7 +647,7 @@ Tags:
 <div class="actions">
 <ul>
 
-<li><a href="/ikiwiki.cgi?page=blog%2Fentry%2Fyour_own_kernel_with_amazon_ec2&amp;do=edit" rel="nofollow">Edit</a></li>
+<li><a href="/ikiwiki.cgi?do=edit&amp;page=blog%2Fentry%2Fyour_own_kernel_with_amazon_ec2" rel="nofollow">Edit</a></li>
 
 
 
@@ -529,7 +674,7 @@ Tags:
 
 </div>
 
-<div id="footer" class="pagefooter">
+<div id="footer" class="pagefooter" role="contentinfo">
 
 <div id="pageinfo">
 
@@ -553,8 +698,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="relativedate" title="Sun, 23 Feb 2014 14:24:02 -0300">Sun Feb 23 14:24:02 2014</span>
-<!-- Created <span class="relativedate" title="Tue, 20 Jul 2010 00:37:34 -0300">Tue Jul 20 00:37:34 2010</span> -->
+Last edited <span class="relativedate" title="Sun, 23 Feb 2014 14:24:02 -0300">Sun 23 Feb 2014 02:24:02 PM ART</span>
+<!-- Created <span class="relativedate" title="Tue, 20 Jul 2010 00:37:34 -0300">Tue 20 Jul 2010 12:37:34 AM ART</span> -->
 </div>
 
 </div>

@@ -1,11 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>templates</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <link rel="stylesheet" href="../style.css" type="text/css" />
 
@@ -14,7 +13,7 @@
 
 
 
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/ikiwiki.cgi?page=templates&amp;do=edit" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/ikiwiki.cgi?do=edit&amp;page=templates" />
 
 
 
@@ -50,7 +49,7 @@ templates
 <div class="actions">
 <ul>
 
-<li><a href="/ikiwiki.cgi?page=templates&amp;do=edit" rel="nofollow">Edit</a></li>
+<li><a href="/ikiwiki.cgi?do=edit&amp;page=templates" rel="nofollow">Edit</a></li>
 
 
 <li><a href="../recentchanges/">RecentChanges</a></li>
@@ -83,7 +82,7 @@ templates
 
 <div id="pagebody">
 
-<div id="content">
+<div id="content" role="main">
 <p><a href="../ikiwiki/">Ikiwiki</a> uses many templates for many purposes. By editing its templates,
 you can fully customise its appearance, and avoid duplicate content.</p>
 
@@ -102,8 +101,10 @@ use <code>&lt;TMPL_IF variable&gt;text&lt;TMPL_ELSE&gt;other text&lt;/TMPL_IF&gt
 
 <h2>template pages</h2>
 
-<p>Template pages are regular wiki pages that are used as templates for other
-pages.</p>
+<p>Template pages are regular wiki pages containing a
+<a href="http://ikiwiki.info/ikiwiki/directive/templatebody/">templatebody directive</a>,
+used as templates for other pages. The parts of the template
+page outside the directive can be used to document it.</p>
 
 <p>The <a href="http://ikiwiki.info/ikiwiki/directive/template/">template directive</a> allows
 template pages to be filled out and inserted into other pages in the wiki.</p>
@@ -134,6 +135,9 @@ Add a new template page named:
 </p>
 
 
+
+<p>If the template does not contain a <code>templatebody</code> directive, the entire
+source of the page is used for the template. This is deprecated.</p>
 
 <h2>template files</h2>
 
@@ -182,8 +186,9 @@ changed pages.</li>
 <li><code>editpage.tmpl</code>, <code>editconflict.tmpl</code>, <code>editcreationconflict.tmpl</code>,
 <code>editfailedsave.tmpl</code>, <code>editpagegone.tmpl</code>, <code>pocreatepage.tmpl</code>,
 <code>editcomment.tmpl</code> <code>commentmoderation.tmpl</code>, <code>renamesummary.tmpl</code>,
-<code>passwordmail.tmpl</code>, <code>openid-selector.tmpl</code>, <code>revert.tmpl</code> - Parts of ikiwiki's user
-interface; do not normally need to be customised.</li>
+<code>passwordmail.tmpl</code>, <code>emailauth.tmpl,</code>login-selector.tmpl<code>,
+</code>revert.tmpl` - Parts of ikiwiki's user interface; do not normally need
+to be customised.</li>
 </ul>
 
 
@@ -197,7 +202,7 @@ interface; do not normally need to be customised.</li>
 
 </div>
 
-<div id="footer" class="pagefooter">
+<div id="footer" class="pagefooter" role="contentinfo">
 
 <div id="pageinfo">
 
@@ -223,8 +228,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="relativedate" title="Wed, 04 Sep 2013 19:10:46 -0300">Wed Sep  4 19:10:46 2013</span>
-<!-- Created <span class="relativedate" title="Wed, 04 Sep 2013 19:10:46 -0300">Wed Sep  4 19:10:46 2013</span> -->
+Last edited <span class="relativedate" title="Wed, 13 May 2015 22:15:08 -0300">Wed 13 May 2015 10:15:08 PM ART</span>
+<!-- Created <span class="relativedate" title="Wed, 13 May 2015 22:15:08 -0300">Wed 13 May 2015 10:15:08 PM ART</span> -->
 </div>
 
 </div>

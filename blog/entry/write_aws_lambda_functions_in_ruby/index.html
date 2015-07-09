@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Write AWS Lambda functions in Ruby</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../local.css" type="text/css" />
+
+
+
+
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/ikiwiki.cgi?do=edit&amp;page=blog%2Fentry%2Fwrite_aws_lambda_functions_in_ruby" />
+
+
+
+
+
+
+
+</head>
+<body><script src="../../../ikiwiki/ikiwiki.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../../ikiwiki/relativedate.js" type="text/javascript" charset="utf-8"></script>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../">miguel.cc</a>/ 
+
+<a href="../../">blog</a>/ 
+
+<a href="../../../">entry</a>/ 
+
+</span>
+<span class="title">
+Write AWS Lambda functions in Ruby
+
+</span>
+</span>
+
+
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+<li><a href="/ikiwiki.cgi?do=edit&amp;page=blog%2Fentry%2Fwrite_aws_lambda_functions_in_ruby" rel="nofollow">Edit</a></li>
+
+
+<li><a href="../../../recentchanges/">RecentChanges</a></li>
+
+
+
+
+<li><a href="/ikiwiki.cgi?do=prefs">Preferences</a></li>
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div id="pagebody">
+
+<div id="content" role="main">
+<p>Since AWS Lambda service release last year <a href="https://aws.amazon.com/blogs/aws/run-code-cloud/">announcement</a>,
+I wanted to try this service and I actually did it. I found it very
+interesting, powerful and full of possibilities, but to be honest, Node.js is
+not really my cup of tea. So, I kept waiting for additional languages support.</p>
+
+<p>So, with the recent announcement about <a href="https://aws.amazon.com/blogs/aws/aws-lambda-update-run-java-code-in-response-to-events/">Java 8 support</a> for AWS Lambda,
+I found an excuse to try it again and for this I decided to use JRuby and
+write my test functions in Ruby.</p>
+
+<p>After stumbling upon and reporting an <a href="https://forums.aws.amazon.com/thread.jspa?messageID=631100">issue</a> with JRuby releases
+before 1.7.21, I was finally able to write and run AWS Lambda functions in
+Ruby.</p>
+
+<p>To test this, I took the most <a href="http://docs.aws.amazon.com/lambda/latest/dg/java-gs.html">basic example</a> from
+AWS documentation and rewrote in Ruby:</p>
+
+<pre><code>require 'java'
+
+java_package 'example'
+
+java_import 'com.amazonaws.services.lambda.runtime.Context'
+java_import 'com.amazonaws.services.lambda.runtime.LambdaLogger'
+
+class Hello
+  java_signature 'String handler(int count, Context context)'
+  def handler(count, context)
+    logger = context.getLogger
+    logger.log("received : #{count}")
+    count.to_s
+  end
+end
+</code></pre>
+
+<p>To deploy and run that code, you must create an artifact acceptable for
+AWS Lambda (mostly .zip and .jar files). You can create those artifacts by
+using Maven as is explained in the <a href="http://docs.aws.amazon.com/lambda/latest/dg/java-create-jar-pkg-maven-no-ide.html">documentation</a>.</p>
+
+<p>Your code should end in a location similar to:
+<code>proj-dir/src/main/ruby/example/Hello.rb</code>.</p>
+
+<p>And you need to add some extra dependencies to use JRuby:</p>
+
+<p>JRuby (use jruby-complete jar <a href="http://jruby.org/2015/07/07/jruby-1-7-21.html">1.7.21</a> or greater):</p>
+
+<pre><code>&lt;dependency&gt;
+  &lt;groupId&gt;org.jruby&lt;/groupId&gt;
+  &lt;artifactId&gt;jruby-complete&lt;/artifactId&gt;
+  &lt;version&gt;1.7.21&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+
+<p>JRuby Maven compiler plugin:</p>
+
+<pre><code>&lt;plugin&gt;
+  &lt;groupId&gt;de.saumya.mojo&lt;/groupId&gt;
+  &lt;artifactId&gt;jruby-maven-plugin&lt;/artifactId&gt;
+  &lt;version&gt;1.0.10&lt;/version&gt;
+  &lt;executions&gt;
+    &lt;execution&gt;
+      &lt;phase&gt;generate-sources&lt;/phase&gt;
+      &lt;goals&gt;
+        &lt;goal&gt;compile&lt;/goal&gt;
+      &lt;/goals&gt;
+      &lt;configuration&gt;
+        &lt;generateJava&gt;true&lt;/generateJava&gt;
+        &lt;generatedJavaDirectory&gt;${jruby.generated.sources}&lt;/generatedJavaDirectory&gt;
+      &lt;/configuration&gt;
+    &lt;/execution&gt;
+  &lt;/executions&gt;
+&lt;/plugin&gt;
+</code></pre>
+
+<p>After adding these extra dependencies and running <code>mvn package</code> you should have
+a .jar file ready to be used with Lambda.</p>
+
+<p>So far, I only have observed two downsides about using JRuby for
+Lambda functions. The first one is, jruby-complete distribution is 20 MB in
+size, so I found my functions a little bloated in size.
+Hopefully, in the future AWS will add support for more runtimes and this will
+not be an issue anymore.</p>
+
+<p>The second detail is, the first time you run your function you will notice
+a very long execution time (around 10s in my case) due to the usual slow JVM
+start up time. If you function is executed with relative frequence you will
+notice AWS Lambda reuse hardware and will obtain more reasonable execution
+times (around 100 ms for trivial functions).</p>
+
+<p>All in all, I look forward to find more uses for this service and I hope for
+more convenient languages (e.g. Ruby, Go, Python, etc) being supported in AWS
+Lambda.</p>
+
+<p>PS. In an AWS event today, it was announced a new service named
+<a href="http://aws.amazon.com/api-gateway/">"API Gateway"</a> that can be combined with AWS Lambda as backend
+functions to build API endpoints. It's worth checking out.</p>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter" role="contentinfo">
+
+<div id="pageinfo">
+
+
+
+
+
+<div class="tags">
+Tags:
+
+<a href="../../../tags/aws/" rel="tag">aws</a>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="relativedate" title="Thu, 09 Jul 2015 19:32:20 -0300">Thu 09 Jul 2015 07:32:20 PM ART</span>
+<!-- Created <span class="relativedate" title="Thu, 09 Jul 2015 19:18:26 -0300">Thu 09 Jul 2015 07:18:26 PM ART</span> -->
+</div>
+
+</div>
+
+
+<!-- from miguel.cc -->
+</div>
+
+</div>
+
+</body>
+</html>
