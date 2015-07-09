@@ -8,7 +8,127 @@
 
 <description>miguel.cc</description>
 <generator>ikiwiki</generator>
-<pubDate>Thu, 09 Jul 2015 19:19:48 -0300</pubDate>
+<pubDate>Thu, 09 Jul 2015 19:41:54 -0300</pubDate>
+<item>
+	<title>change to index on miguel.cc</title>
+
+	<guid isPermaLink="false">http://miguel.cc/recentchanges/change_87c699a5356bfb8f1d387abc6dca584b7106f23b/</guid>
+
+	<link>http://miguel.cc/recentchanges/#change-87c699a5356bfb8f1d387abc6dca584b7106f23b</link>
+
+	<dc:creator>miguel</dc:creator>
+
+
+	<pubDate>Thu, 09 Jul 2015 19:41:54 -0300</pubDate>
+	<dcterms:modified>2015-07-09T22:41:54Z</dcterms:modified>
+
+
+	<description>
+
+
+
+
+
+
+
+&lt;div id=&quot;change-87c699a5356bfb8f1d387abc6dca584b7106f23b&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=index&quot; rel=&quot;nofollow&quot;&gt;index&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=miguel&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Thu, 09 Jul 2015 19:41:54 -0300&quot;&gt;07:41:54 PM 07/09/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+&lt;span class=&quot;revert&quot;&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=revert&amp;amp;rev=87c699a5356bfb8f1d387abc6dca584b7106f23b&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+fix typo&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+	<title>change to blog/entry/write_aws_lambda_functions_in_ruby on miguel.cc</title>
+
+	<guid isPermaLink="false">http://miguel.cc/recentchanges/change_bee582d92a0d7322f7e3f289660e38e754c33924/</guid>
+
+	<link>http://miguel.cc/recentchanges/#change-bee582d92a0d7322f7e3f289660e38e754c33924</link>
+
+	<dc:creator>miguel</dc:creator>
+
+
+	<pubDate>Thu, 09 Jul 2015 19:40:26 -0300</pubDate>
+	<dcterms:modified>2015-07-09T22:40:26Z</dcterms:modified>
+
+
+	<description>
+
+
+
+
+
+
+
+&lt;div id=&quot;change-bee582d92a0d7322f7e3f289660e38e754c33924&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=blog%2Fentry%2Fwrite_aws_lambda_functions_in_ruby&quot; rel=&quot;nofollow&quot;&gt;blog/entry/write aws lambda functions in ruby&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=goto&amp;amp;page=miguel&quot; rel=&quot;nofollow&quot;&gt;miguel&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;relativedate&quot; title=&quot;Thu, 09 Jul 2015 19:40:26 -0300&quot;&gt;07:40:26 PM 07/09/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+&lt;span class=&quot;revert&quot;&gt;
+&lt;a href=&quot;http://miguel.cc/ikiwiki.cgi?do=revert&amp;amp;rev=bee582d92a0d7322f7e3f289660e38e754c33924&quot; title=&quot;revert&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://miguel.cc/recentchanges/../wikiicons/revert.png&quot; alt=&quot;revert&quot; /&gt;&lt;/a&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+blog update&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
 <item>
 	<title>change to tags/aws on miguel.cc</title>
 
