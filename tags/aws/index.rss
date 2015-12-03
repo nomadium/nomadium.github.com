@@ -8,7 +8,7 @@
 
 <description>miguel.cc</description>
 <generator>ikiwiki</generator>
-<pubDate>Thu, 09 Jul 2015 19:32:20 -0300</pubDate>
+<pubDate>Thu, 03 Dec 2015 17:02:58 -0300</pubDate>
 <item>
 	<title>Write AWS Lambda functions in Ruby</title>
 
@@ -21,8 +21,8 @@
 	<category>aws</category>
 
 
-	<pubDate>Thu, 09 Jul 2015 19:18:26 -0300</pubDate>
-	<dcterms:modified>2015-07-09T22:32:20Z</dcterms:modified>
+	<pubDate>Thu, 09 Jul 2015 19:40:26 -0300</pubDate>
+	<dcterms:modified>2015-12-03T20:02:58Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Since AWS Lambda service release last year &lt;a href=&quot;https://aws.amazon.com/blogs/aws/run-code-cloud/&quot;&gt;announcement&lt;/a&gt;,
@@ -119,6 +119,12 @@ Lambda.&lt;/p&gt;
 &lt;p&gt;PS. In an AWS event today, it was announced a new service named
 &lt;a href=&quot;http://aws.amazon.com/api-gateway/&quot;&gt;&quot;API Gateway&quot;&lt;/a&gt; that can be combined with AWS Lambda as backend
 functions to build API endpoints. It&#39;s worth checking out.&lt;/p&gt;
+
+&lt;p&gt;Update (2015/12/03):&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/c9katayama&quot;&gt;Akio Katayama&lt;/a&gt; published a &lt;a href=&quot;https://github.com/c9katayama/aws-lambda-jruby&quot;&gt;niftier way&lt;/a&gt; to build your
+Lambda functions with JRuby but using gradle instead of plain old Maven. Check it
+out!&lt;/p&gt;
 </description>
 
 
